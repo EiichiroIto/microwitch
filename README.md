@@ -1,5 +1,5 @@
-# microwitch
-micro:bit programing environment (based on MIT Scratch)
+# micro:witch
+micro:witch is a block-style programing environment for micro:bit, based on MIT Scratch.
 
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/src/images/screenshot1.png)
 
