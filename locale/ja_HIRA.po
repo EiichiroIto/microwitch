@@ -271,6 +271,18 @@ msgstr "このファイルめいはすでにそんざいします。きそんの
 msgid "add comment here"
 msgstr "コメントをついかしてください"
 
+msgid "Yes"
+msgstr "はい"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "Don't Save"
+msgstr "ほぞんしない"
+
+msgid "Save changes before quitting?"
+msgstr "しゅうりょうするまえにへんこうをほぞんしますか?"
+
 ############################################
 # micro:witch
 ############################################
@@ -305,13 +317,13 @@ msgid "count of button %M pressed"
 msgstr "ボタン %M がおされたかいすう"
 
 msgid "digital read pin %n"
-msgstr "デジタルピン %n のじょうたい"
+msgstr "デジタルピン %n のあたい"
 
 msgid "digital write pin %n to %n"
 msgstr "デジタルピン %n を %n にする"
 
 msgid "analog read pin %n"
-msgstr "アナログピン %n のじょうたい"
+msgstr "アナログピン %n のあたい"
 
 msgid "analog write pin %n to %n"
 msgstr "アナログピン %n を %n にする"
@@ -333,21 +345,6 @@ msgstr "%s をスクロールひょうじし、おわりを待たない"
 
 msgid "show %s"
 msgstr "%s をひょうじする"
-
-msgid "show symbol %g"
-msgstr "シンボル %g をひょうじする"
-
-msgid "show clock %D"
-msgstr "とけい %D をひょうじする"
-
-msgid "show arrow %I"
-msgstr "やじるし %I をひょうじする"
-
-msgid "show shape %S"
-msgstr "ずけい %S を表示する"
-
-msgid "show character %l"
-msgstr "きごう %l を表示する"
 
 msgid "image of %C"
 msgstr "%C のイメージ"
@@ -504,3 +501,96 @@ msgstr "デバイス"
 
 msgid "replace all items of %L with %s"
 msgstr "リスト %L を %s でおきかえる"
+
+msgid "symbol image of %g"
+msgstr "シンボル %g のイメージ"
+
+msgid "clock image of %D"
+msgstr "とけい %D のイメージ"
+
+msgid "arrow image of %I"
+msgstr "やじるし %I のイメージ"
+
+msgid "shape image of %S"
+msgstr "ずけい %S のイメージ"
+
+msgid "character image of %l"
+msgstr "キャラ %l のイメージ"
+
+msgid "image width %n height %n"
+msgstr "はば %n たかさ %n のイメージ"
+
+msgid "set x %n y %n to %n of %s"
+msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 を %n3 にする"
+
+msgid "point x %n y %n of %s"
+msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 のあたい"
+
+msgid "width of %s"
+msgstr "イメージ %s のはば"
+
+msgid "height of %s"
+msgstr "イメージ %s のたかさ"
+
+msgid "shift %x %n pixels of %s"
+msgstr "イメージ %s を %x のほうこうに %n ピクセルずらす"
+
+msgid "crop area x %n y %n w %n h %n of %s"
+msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 はば %n3 たかさ %n4 のはんい"
+
+msgid "left"
+msgstr "ひだり"
+
+msgid "right"
+msgstr "みぎ"
+
+msgid "up"
+msgstr "うえ"
+
+msgid "down"
+msgstr "した"
+
+msgid "Make a NeoPixel"
+msgstr "NeoPixel をつくる"
+
+msgid "Delete a NeoPixel"
+msgstr "NeoPixel をさくじょ"
+
+msgid "setup NeoPixel as pin 0 number %n"
+msgstr "NeoPixelをピン0で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 1 number %n"
+msgstr "NeoPixelをピン1で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 2 number %n"
+msgstr "NeoPixelをピン2で %n こにせっていする"
+
+msgid "clear NeoPixel of pin %k"
+msgstr "ピン %k のNeoPixelをけす"
+
+msgid "show NeoPixel of pin %k"
+msgstr "ピン %k のNeoPixelをひょうじする"
+
+msgid "set %n to r %n g %n b %n of NeoPixel pin %k"
+msgstr "ピン %k のNeoPixelの %n1 ばんめをあか %n2 みどり %n3 あお %n4 にする"
+
+msgid "pin No?"
+msgstr "ピンばんごうは?"
+
+msgid "No NeoPixels."
+msgstr "NeoPixelはありません"
+
+msgid "pin 0"
+msgstr "ピン0"
+
+msgid "pin 1"
+msgstr "ピン1"
+
+msgid "pin 2"
+msgstr "ピン2"
+
+msgid "That pin is already in use"
+msgstr "そのピンはすでにつかわれています"
+
+msgid "Currently pin number is supported up to 2"
+msgstr "げんざいのところピンばんごうは2までしていできます"

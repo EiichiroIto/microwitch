@@ -155,7 +155,7 @@ msgid "Variable name?"
 msgstr "変数名?"
 
 msgid "OK"
-msgstr "OK"
+msgstr "ＯＫ"
 
 msgid "Cancel"
 msgstr "キャンセル"
@@ -271,6 +271,18 @@ msgstr "このファイル名は既に存在します。既存のファイルを
 msgid "add comment here"
 msgstr "コメントを追加してください"
 
+msgid "Yes"
+msgstr "はい"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "Don't Save"
+msgstr "保存しない"
+
+msgid "Save changes before quitting?"
+msgstr "終了する前に変更を保存しますか?"
+
 ############################################
 # micro:witch
 ############################################
@@ -305,13 +317,13 @@ msgid "count of button %M pressed"
 msgstr "ボタン %M が押された回数"
 
 msgid "digital read pin %n"
-msgstr "デジタルピン %n の状態"
+msgstr "デジタルピン %n の値"
 
 msgid "digital write pin %n to %n"
 msgstr "デジタルピン %n を %n にする"
 
 msgid "analog read pin %n"
-msgstr "アナログピン %n の状態"
+msgstr "アナログピン %n の値"
 
 msgid "analog write pin %n to %n"
 msgstr "アナログピン %n を %n にする"
@@ -333,21 +345,6 @@ msgstr "%s をスクロール表示し、終わりを待たない"
 
 msgid "show %s"
 msgstr "%s を表示する"
-
-msgid "show symbol %g"
-msgstr "シンボル %g を表示する"
-
-msgid "show clock %D"
-msgstr "時計 %D を表示する"
-
-msgid "show arrow %I"
-msgstr "矢印 %I を表示する"
-
-msgid "show shape %S"
-msgstr "図形 %S を表示する"
-
-msgid "show character %l"
-msgstr "記号 %l を表示する"
 
 msgid "image of %C"
 msgstr "%C のイメージ"
@@ -505,3 +502,101 @@ msgstr "デバイス"
 msgid "replace all items of %L with %s"
 msgstr "リスト %L を %s で置き換える"
 
+msgid "symbol image of %g"
+msgstr "シンボル %g のイメージ"
+
+msgid "clock image of %D"
+msgstr "時計 %D のイメージ"
+
+msgid "arrow image of %I"
+msgstr "矢印 %I のイメージ"
+
+msgid "shape image of %S"
+msgstr "図形 %S のイメージ"
+
+msgid "character image of %l"
+msgstr "キャラ %l のイメージ"
+
+msgid "image width %n height %n"
+msgstr "幅 %n 高さ %n のイメージ"
+
+msgid "set x %n y %n to %n of %s"
+msgstr "イメージ %s のX座標 %n1 Y座標 %n2 を %n3 にする"
+
+msgid "point x %n y %n of %s"
+msgstr "イメージ %s のX座標 %n1 Y座標 %n2 の値"
+
+msgid "width of %s"
+msgstr "イメージ %s の幅"
+
+msgid "height of %s"
+msgstr "イメージ %s の高さ"
+
+msgid "shift %x %n pixels of %s"
+msgstr "イメージ %s を %x の方向に %n ピクセルずらす"
+
+msgid "crop area x %n y %n w %n h %n of %s"
+msgstr "イメージ %s のX座標 %n1 Y座標 %n2 幅 %n3 高さ %n4 の範囲"
+
+msgid "left"
+msgstr "左"
+
+msgid "right"
+msgstr "右"
+
+msgid "up"
+msgstr "上"
+
+msgid "down"
+msgstr "下"
+
+msgid "Make a NeoPixel"
+msgstr "NeoPixel を作る"
+
+msgid "Delete a NeoPixel"
+msgstr "NeoPixel を削除"
+
+msgid "setup NeoPixel as pin 0 number %n"
+msgstr "NeoPixelをピン0で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 1 number %n"
+msgstr "NeoPixelをピン1で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 2 number %n"
+msgstr "NeoPixelをピン2で %n 個に設定する"
+
+msgid "clear NeoPixel of pin %k"
+msgstr "ピン %k のNeoPixelを消す"
+
+msgid "show NeoPixel of pin %k"
+msgstr "ピン %k のNeoPixelを表示する"
+
+msgid "set %n to r %n g %n b %n of NeoPixel pin %k"
+msgstr "ピン %k のNeoPixelの %n1 番目を赤 %n2 緑 %n3 青 %n4 にする"
+
+msgid "pin No?"
+msgstr "ピン番号は?"
+
+msgid "No NeoPixels."
+msgstr "NeoPixelはありません"
+
+msgid "pin 0"
+msgstr "ピン0"
+
+msgid "pin 1"
+msgstr "ピン1"
+
+msgid "pin 2"
+msgstr "ピン2"
+
+msgid "That pin is already in use"
+msgstr "そのピンは既に使われています"
+
+msgid "Currently pin number is supported up to 2"
+msgstr "現在のところピン番号は2まで指定できます"
+
+#msgid ""
+#msgstr ""
+
+#msgid ""
+#msgstr ""
