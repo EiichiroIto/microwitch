@@ -298,8 +298,8 @@ msgstr "むせんオフ"
 msgid "send a radio message %s"
 msgstr "むせんメッセージ %s をおくる"
 
-msgid "receive a radio message"
-msgstr "むせんメッセージをうけとる"
+msgid "received radio message"
+msgstr "むせんメッセージ"
 
 msgid "radio reset"
 msgstr "むせんリセット"
@@ -594,3 +594,21 @@ msgstr "そのピンはすでにつかわれています"
 
 msgid "Currently pin number is supported up to 2"
 msgstr "げんざいのところピンばんごうは2までしていできます"
+
+msgid "copy image of %s"
+msgstr "%s のコピー"
+
+msgid "inverted image of %s"
+msgstr "%s のはんてん"
+
+msgid "fill %s with %n"
+msgstr "%s を %n でぬりつぶす"
+
+msgid "config radio group %n"
+msgstr "むせんグループを %n にせっていする"
+
+msgid "%s is None"
+msgstr "%s がNoneか"
+
+msgid "number of %s"
+msgstr "%s のすうち"

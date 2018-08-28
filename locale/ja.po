@@ -298,8 +298,8 @@ msgstr "無線オフ"
 msgid "send a radio message %s"
 msgstr "無線メッセージ %s を送る"
 
-msgid "receive a radio message"
-msgstr "無線メッセージを受け取る"
+msgid "received radio message"
+msgstr "無線メッセージ"
 
 msgid "radio reset"
 msgstr "無線リセット"
@@ -595,8 +595,23 @@ msgstr "そのピンは既に使われています"
 msgid "Currently pin number is supported up to 2"
 msgstr "現在のところピン番号は2まで指定できます"
 
-#msgid ""
-#msgstr ""
+msgid "copy image of %s"
+msgstr "%s のコピー"
+
+msgid "inverted image of %s"
+msgstr "%s の反転"
+
+msgid "fill %s with %n"
+msgstr "%s を %n で塗りつぶす"
+
+msgid "config radio group %n"
+msgstr "無線グループを %n に設定する"
+
+msgid "%s is None"
+msgstr "%s がNoneか"
+
+msgid "number of %s"
+msgstr "%s の数値"
 
 #msgid ""
 #msgstr ""
