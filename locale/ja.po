@@ -613,5 +613,11 @@ msgstr "%s がNoneか"
 msgid "number of %s"
 msgstr "%s の数値"
 
+msgid "servo write pin %j to %n degrees"
+msgstr "サーボピン %j を %n 度にする"
+
+msgid "servo set pin %j %n msec %n to %n"
+msgstr "サーボピン %j を %n ミリ秒 最大 %n 最小 %n に設定する"
+
 #msgid ""
 #msgstr ""

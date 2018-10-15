@@ -612,3 +612,9 @@ msgstr "%s がNoneか"
 
 msgid "number of %s"
 msgstr "%s のすうち"
+
+msgid "servo write pin %j to %n degrees"
+msgstr "サーボピン %j を %n どにする"
+
+msgid "servo set pin %j %n msec %n to %n"
+msgstr "サーボピン %j を %n ミリびょう さいだい %n さいしょう %n にせっていする"
