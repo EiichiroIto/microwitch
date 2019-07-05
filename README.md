@@ -27,7 +27,8 @@ micro:witch は、micro:bit のためのブロック型プログラミング環�
 ## トラブルシューティング
 ### REPL実行でうまく接続や転送ができない
 micro:bit ファームウェアのバージョンが古い可能性があります。下記サイトを参考にファームウェアをバージョンアップしてみてください。
-![micro:bitファームウェアをアップデートする](https://microbit.org/ja/guide/firmware/)
+
+[micro:bitファームウェアをアップデートする](https://microbit.org/ja/guide/firmware/)
 
 ## ライセンス
 MIT License
