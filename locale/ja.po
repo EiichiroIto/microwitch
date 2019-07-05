@@ -565,6 +565,45 @@ msgstr "NeoPixelをピン1で %n 個に設定する"
 msgid "setup NeoPixel as pin 2 number %n"
 msgstr "NeoPixelをピン2で %n 個に設定する"
 
+msgid "setup NeoPixel as pin 3 number %n"
+msgstr "NeoPixelをピン3で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 4 number %n"
+msgstr "NeoPixelをピン4で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 5 number %n"
+msgstr "NeoPixelをピン5で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 6 number %n"
+msgstr "NeoPixelをピン6で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 7 number %n"
+msgstr "NeoPixelをピン7で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 8 number %n"
+msgstr "NeoPixelをピン8で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 9 number %n"
+msgstr "NeoPixelをピン9で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 10 number %n"
+msgstr "NeoPixelをピン10で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 11 number %n"
+msgstr "NeoPixelをピン11で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 12 number %n"
+msgstr "NeoPixelをピン12で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 13 number %n"
+msgstr "NeoPixelをピン13で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 14 number %n"
+msgstr "NeoPixelをピン14で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 15 number %n"
+msgstr "NeoPixelをピン15で %n 個に設定する"
+
 msgid "clear NeoPixel of pin %k"
 msgstr "ピン %k のNeoPixelを消す"
 
@@ -589,11 +628,50 @@ msgstr "ピン1"
 msgid "pin 2"
 msgstr "ピン2"
 
+msgid "pin 3"
+msgstr "ピン3"
+
+msgid "pin 4"
+msgstr "ピン4"
+
+msgid "pin 5"
+msgstr "ピン5"
+
+msgid "pin 6"
+msgstr "ピン6"
+
+msgid "pin 7"
+msgstr "ピン7"
+
+msgid "pin 8"
+msgstr "ピン8"
+
+msgid "pin 9"
+msgstr "ピン9"
+
+msgid "pin 10"
+msgstr "ピン10"
+
+msgid "pin 11"
+msgstr "ピン11"
+
+msgid "pin 12"
+msgstr "ピン12"
+
+msgid "pin 13"
+msgstr "ピン13"
+
+msgid "pin 14"
+msgstr "ピン14"
+
+msgid "pin 15"
+msgstr "ピン15"
+
 msgid "That pin is already in use"
 msgstr "そのピンは既に使われています"
 
-msgid "Currently pin number is supported up to 2"
-msgstr "現在のところピン番号は2まで指定できます"
+msgid "Currently pin number is supported up to 15"
+msgstr "現在のところピン番号は15まで指定できます"
 
 msgid "copy image of %s"
 msgstr "%s のコピー"
@@ -619,5 +697,42 @@ msgstr "サーボピン %j を %n 度にする"
 msgid "servo set pin %j %n msec %n to %n"
 msgstr "サーボピン %j を %n ミリ秒 最大 %n 最小 %n に設定する"
 
-#msgid ""
-#msgstr ""
+msgid "port"
+msgstr "ポート"
+
+msgid "status"
+msgstr "状態"
+
+msgid "Disconnect from micro:bit"
+msgstr "micro:bit を切断する"
+
+msgid "Connect to micro:bit"
+msgstr "micro:bit に接続する"
+
+msgid "disconnect"
+msgstr "未接続"
+
+msgid "reboot"
+msgstr "再起動"
+
+msgid "idle"
+msgstr "接続待機中"
+
+msgid "opening"
+msgstr "接続中"
+
+msgid "connecting"
+msgstr "接続中"
+
+msgid "running"
+msgstr "実行中"
+
+msgid "ready"
+msgstr "受付中"
+
+msgid "I2C read addr %n"
+msgstr "I2Cのアドレス %n の値"
+
+msgid "I2C write addr %n data %L"
+msgstr "I2Cのアドレス %n に %L を書く"
+
