@@ -1,34 +1,33 @@
 # micro:witch
-micro:witch は、micro:bit のためのブロック型プログラミング環境です。（based on MIT Scratch）
+micro:witch is a block-style programming environment for micro:bit based on MIT Scratch.
 
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/src/images/screenshot1.png)
 
-## インストール方法
-1. 適当なフォルダにコピーしてください。
+## Installation
+1. Copy all files to an appropriate folder.
 
-## 起動方法
-1. Scratch.exe を実行してください。
-1. 日本語を選んでください。
+## Run
+1. Run Scratch.exe.
 
-## 使い方
-1. micro:bit をパソコンに接続します。
-1. micro:bit が適当なドライブとして認識されるのを待ちます。
-1. 「緑旗がクリックされたとき」で始まるプログラムを作ります。
-1. デバイスメニューから「micro:bitに送信する」を選びます。
-1. micro:bit でプログラムが実行されます。
+## Usage
+1. Connect a micro:bit to your PC.
+1. Wait for recoginizing the micro:bit as a USB drive.
+1. Create a program starting from "When green flag clicked" block.
+1. Select "send to micro:bit" from Device menu.
+1. The program runs on micro:bit.
 
-## REPL実行
-1. micro:bit がパソコンに接続されている状態でデバイスメニューから「micro:bitに接続する」を選びます。
-1. micro:bitが接続されているポートを選びます。
-1. 「接続」が「受付中」に変わるまで数秒程度待ちます。
-1. ブロックをクリックすると、micro:bit に転送され実行されます。
-1. 接続中は「micro:bitに送信する」で高速にプログラムを転送できます。
+## REPL Execution
+1. Select "Connect to micro:bit" from Device menu while a micro:bit is connecting.
+1. Select a port connecting to the micro:bit.
+1. Wait "status: ready" for several seconds.
+1. When you click some block, the code is transfered to the micro:bit then executed.
+1. You can send a program quickly while the micro:bit is connecting.
 
-## トラブルシューティング
-### REPL実行でうまく接続や転送ができない
-micro:bit ファームウェアのバージョンが古い可能性があります。下記サイトを参考にファームウェアをバージョンアップしてみてください。
+## Trouble shooting
+### I can't connect to my micro:bit or transfer a program on REPL Execution.
+Firmware on your micro:bit may be old version. You can upgrage newer firmware. Please check following site.
 
-[micro:bitファームウェアをアップデートする](https://microbit.org/ja/guide/firmware/)
+[Updating your micro:bit firmware](https://microbit.org/ja/guide/firmware/)
 
-## ライセンス
+## License
 MIT License

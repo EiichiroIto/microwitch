@@ -21,10 +21,11 @@
 
 /*** Variables ***/
 struct VirtualMachine* interpreterProxy;
-const char *moduleName = "MicrobitPlugin 26 June 2018 (e)";
+const char *moduleName = "MicrobitPlugin 2 July 2019 (e)";
 
 /*** Functions ***/
 EXPORT int primMicrobitDevice(void);
+EXPORT int primEnumerateComPorts(void);
 EXPORT int setInterpreter(struct VirtualMachine* anInterpreter);
 
 EXPORT int primMicrobitDevice(void) {
@@ -44,6 +45,27 @@ EXPORT int primMicrobitDevice(void) {
 	resultOop = interpreterProxy->instantiateClassindexableSize(interpreterProxy->classString(), count);
 	dst = ((char *) (interpreterProxy->firstIndexableField(resultOop)));
 	for (i = 0; i <= (count - 1); i += 1) {
+		dst[i] = (nameStr[i]);
+	}
+	interpreterProxy->popthenPush(1, resultOop);
+	return 0;
+}
+
+EXPORT int primEnumerateComPorts(void) {
+	char nameStr[1000];
+	int i;
+	int ret;
+	int resultOop;
+	char* dst;
+
+	ret = EnumerateComPorts(nameStr, sizeof nameStr);
+	if (ret == 0) {
+		interpreterProxy->success(0);
+		return 0;
+	}
+	resultOop = interpreterProxy->instantiateClassindexableSize(interpreterProxy->classString(), ret);
+	dst = ((char *) (interpreterProxy->firstIndexableField(resultOop)));
+	for (i = 0; i <= (ret - 1); i += 1) {
 		dst[i] = (nameStr[i]);
 	}
 	interpreterProxy->popthenPush(1, resultOop);
