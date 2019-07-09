@@ -7,11 +7,11 @@ micro:witch is a block-style programming environment for micro:bit based on MIT 
 1. Copy all files to an appropriate folder.
 
 ## Run
-1. Run Scratch.exe.
+1. Start Scratch.exe.
 
 ## Usage
 1. Connect a micro:bit to your PC.
-1. Wait for recoginizing the micro:bit as a USB drive.
+1. Wait until recoginizing the micro:bit as a USB drive.
 1. Create a program starting from "When green flag clicked" block.
 1. Select "send to micro:bit" from Device menu.
 1. The program runs on micro:bit.
