@@ -736,3 +736,12 @@ msgstr "I2Cのアドレス %n の値"
 msgid "I2C write addr %n data %L"
 msgstr "I2Cのアドレス %n に %L を書く"
 
+msgid "show python code"
+msgstr "Pythonコードを表示する"
+
+msgid "Python code"
+msgstr "Pythonコード"
+
+msgid "light"
+msgstr "明るさ"
+
