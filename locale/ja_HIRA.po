@@ -744,3 +744,6 @@ msgstr "Pythonコード"
 
 msgid "light"
 msgstr "あかるさ"
+
+msgid "send firmware to micro:bit?"
+msgstr "micro:bitにファームウェアをてんそうしますか？"
