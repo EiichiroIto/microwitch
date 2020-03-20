@@ -28,7 +28,7 @@ micro:witch is a block-style programming environment for micro:bit based on MIT 
 ### I can't connect to my micro:bit or transfer a program on REPL Execution.
 Firmware on your micro:bit may be old version. You can upgrage newer firmware. Please check following site.
 
-[Updating your micro:bit firmware](https://microbit.org/ja/guide/firmware/)
+[Updating your micro:bit firmware](https://microbit.org/get-started/user-guide/firmware/)
 
 ### REPL Program does not start on reset.
 1. If already running in REPL mode, select "Disconnect from micro:bit" from Device menu.
