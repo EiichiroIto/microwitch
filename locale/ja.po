@@ -424,6 +424,9 @@ msgstr "音楽 %N を演奏する"
 msgid "play music %N repeat"
 msgstr "音楽 %N を繰り返し演奏する"
 
+msgid "play music %N repeat until done"
+msgstr "音楽 %N を繰り返し演奏して待つ"
+
 msgid "play music %N until done"
 msgstr "音楽 %N を演奏して待つ"
 

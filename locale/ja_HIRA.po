@@ -424,6 +424,9 @@ msgstr "おんがく %N をえんそうする"
 msgid "play music %N repeat"
 msgstr "おんがく %N をくりかえしえんそうする"
 
+msgid "play music %N repeat until done"
+msgstr "おんがく %N をくりかえしえんそうしてまつ"
+
 msgid "play music %N until done"
 msgstr "おんがく %N をえんそうしてまつ"
 
