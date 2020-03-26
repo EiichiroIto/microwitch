@@ -750,3 +750,6 @@ msgstr "明るさ"
 
 msgid "send firmware to micro:bit?"
 msgstr "micro:bitにファームウェアを転送しますか？"
+
+msgid "%n between %n and %n"
+msgstr "%n1 が %n2 以上 %n3 以下"

@@ -750,3 +750,6 @@ msgstr "あかるさ"
 
 msgid "send firmware to micro:bit?"
 msgstr "micro:bitにファームウェアをてんそうしますか？"
+
+msgid "%n between %n and %n"
+msgstr "%n1 が %n2 いじょう %n3 いか"
