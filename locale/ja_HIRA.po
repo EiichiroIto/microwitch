@@ -328,8 +328,8 @@ msgstr "アナログピン %n のあたい"
 msgid "analog write pin %n to %n"
 msgstr "アナログピン %n を %n にする"
 
-msgid "analog set period pin %n to %n msec"
-msgstr "アナログピン %n のしゅうきを %n ミリびょうにする"
+msgid "analog set period pin %n to %n usec"
+msgstr "アナログピン %n のしゅうきを %n マイクロびょうにする"
 
 msgid "pin %n is touched"
 msgstr "ピン %n をさわっている"
@@ -700,6 +700,9 @@ msgstr "サーボピン %j を %n どにする"
 msgid "servo set pin %j %n msec %n to %n"
 msgstr "サーボピン %j を %n ミリびょう さいだい %n さいしょう %n にせっていする"
 
+msgid "servo set pin %j %n msec"
+msgstr "サーボピン %j を %n ミリびょうにせっていする"
+
 msgid "port"
 msgstr "ポート"
 
@@ -753,3 +756,7 @@ msgstr "micro:bitにファームウェアをてんそうしますか？"
 
 msgid "%n between %n and %n"
 msgstr "%n1 が %n2 いじょう %n3 いか"
+
+msgid "has duplicate hat blocks."
+msgstr "かいしブロックがちょうふくしています"
+

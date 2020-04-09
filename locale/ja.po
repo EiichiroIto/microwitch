@@ -328,8 +328,8 @@ msgstr "アナログピン %n の値"
 msgid "analog write pin %n to %n"
 msgstr "アナログピン %n を %n にする"
 
-msgid "analog set period pin %n to %n msec"
-msgstr "アナログピン %n の周期を %n ミリ秒にする"
+msgid "analog set period pin %n to %n usec"
+msgstr "アナログピン %n の周期を %n マイクロ秒にする"
 
 msgid "pin %n is touched"
 msgstr "ピン %n を触っている"
@@ -700,6 +700,9 @@ msgstr "サーボピン %j を %n 度にする"
 msgid "servo set pin %j %n msec %n to %n"
 msgstr "サーボピン %j を %n ミリ秒 最大 %n 最小 %n に設定する"
 
+msgid "servo set pin %j %n msec"
+msgstr "サーボピン %j を %n ミリ秒に設定する"
+
 msgid "port"
 msgstr "ポート"
 
@@ -753,3 +756,6 @@ msgstr "micro:bitにファームウェアを転送しますか？"
 
 msgid "%n between %n and %n"
 msgstr "%n1 が %n2 以上 %n3 以下"
+
+msgid "has duplicate hat blocks."
+msgstr "開始ブロックが重複しています"
