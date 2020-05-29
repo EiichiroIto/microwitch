@@ -759,3 +759,9 @@ msgstr "%n1 が %n2 以上 %n3 以下"
 
 msgid "has duplicate hat blocks."
 msgstr "開始ブロックが重複しています"
+
+msgid "set usonic trig %n echo %n"
+msgstr "超音波センサのTrigを %n1 にEchoを %n2 に設定する"
+
+msgid "usonic distance"
+msgstr "超音波センサの距離"

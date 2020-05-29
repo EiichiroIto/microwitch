@@ -760,3 +760,8 @@ msgstr "%n1 が %n2 いじょう %n3 いか"
 msgid "has duplicate hat blocks."
 msgstr "かいしブロックがちょうふくしています"
 
+msgid "set usonic trig %n echo %n"
+msgstr "ちょうおんぱセンサのTrigを %n1 にEchoを %n2 にせっていする"
+
+msgid "usonic distance"
+msgstr "ちょうおんぱセンサのきょり"
