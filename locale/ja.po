@@ -765,3 +765,9 @@ msgstr "超音波センサのTrigを %n1 にEchoを %n2 に設定する"
 
 msgid "usonic distance"
 msgstr "超音波センサの距離"
+
+msgid "ticks ms"
+msgstr "稼働時間(ms)"
+
+msgid "ticks us"
+msgstr "稼働時間(us)"

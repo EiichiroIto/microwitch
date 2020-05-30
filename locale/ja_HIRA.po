@@ -765,3 +765,9 @@ msgstr "ちょうおんぱセンサのTrigを %n1 にEchoを %n2 にせってい
 
 msgid "usonic distance"
 msgstr "ちょうおんぱセンサのきょり"
+
+msgid "ticks ms"
+msgstr "かどうじかん(ms)"
+
+msgid "ticks us"
+msgstr "かどうじかん(us)"
