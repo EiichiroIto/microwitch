@@ -771,3 +771,18 @@ msgstr "かどうじかん(ms)"
 
 msgid "ticks us"
 msgstr "かどうじかん(us)"
+
+msgid "uart init baud %n"
+msgstr "UARTをボーレート %n でしょきかする"
+
+msgid "uart init baud %n tx %n rx %n"
+msgstr "UARTをボーレート %n tx %n rx %n でしょきかする"
+
+msgid "uart read"
+msgstr "UARTよみこみ"
+
+msgid "uart read line"
+msgstr "UART１ぎょうよみこみ"
+
+msgid "uart write %s"
+msgstr "UARTに %s をかきこむ"

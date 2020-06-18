@@ -771,3 +771,18 @@ msgstr "稼働時間(ms)"
 
 msgid "ticks us"
 msgstr "稼働時間(us)"
+
+msgid "uart init baud %n"
+msgstr "UARTをボーレート %n で初期化する"
+
+msgid "uart init baud %n tx %n rx %n"
+msgstr "UARTをボーレート %n tx %n rx %n で初期化する"
+
+msgid "uart read"
+msgstr "UART読み込み"
+
+msgid "uart read line"
+msgstr "UART１行読み込み"
+
+msgid "uart write %s"
+msgstr "UARTに %s を書き込む"
