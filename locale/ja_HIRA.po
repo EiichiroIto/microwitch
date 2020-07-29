@@ -796,3 +796,9 @@ msgstr "%n と %n のろんりわ"
 msgid "%n bitxor %n"
 msgstr "%n と %n のはいたてきろんりわ"
 
+msgid "%n bit shift left %n"
+msgstr "%n の %n ビットひだりシフト"
+
+msgid "%n bit shift right %n"
+msgstr "%n の %n ビットみぎシフト"
+

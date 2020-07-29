@@ -796,3 +796,9 @@ msgstr "%n と %n の論理和"
 msgid "%n bitxor %n"
 msgstr "%n と %n の排他的論理和"
 
+msgid "%n bit shift left %n"
+msgstr "%n の %n ビット左シフト"
+
+msgid "%n bit shift right %n"
+msgstr "%n の %n ビット右シフト"
+
