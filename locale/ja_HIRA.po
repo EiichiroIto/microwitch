@@ -786,3 +786,13 @@ msgstr "UART１ぎょうよみこみ"
 
 msgid "uart write %s"
 msgstr "UARTに %s をかきこむ"
+
+msgid "%n bitand %n"
+msgstr "%n と %n のろんりせき"
+
+msgid "%n bitor %n"
+msgstr "%n と %n のろんりわ"
+
+msgid "%n bitxor %n"
+msgstr "%n と %n のはいたてきろんりわ"
+

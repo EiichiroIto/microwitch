@@ -786,3 +786,13 @@ msgstr "UART１行読み込み"
 
 msgid "uart write %s"
 msgstr "UARTに %s を書き込む"
+
+msgid "%n bitand %n"
+msgstr "%n と %n の論理積"
+
+msgid "%n bitor %n"
+msgstr "%n と %n の論理和"
+
+msgid "%n bitxor %n"
+msgstr "%n と %n の排他的論理和"
+
