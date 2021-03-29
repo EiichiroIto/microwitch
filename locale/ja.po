@@ -331,8 +331,8 @@ msgstr "アナログピン %n を %n にする"
 msgid "analog set period pin %n to %n usec"
 msgstr "アナログピン %n の周期を %n マイクロ秒にする"
 
-msgid "pin %n is touched"
-msgstr "ピン %n を触っている"
+msgid "%T is touched"
+msgstr "%T を触っている"
 
 msgid "led"
 msgstr "LED"
@@ -742,6 +742,15 @@ msgstr "I2Cのアドレス %n の値"
 msgid "I2C write addr %n data %L"
 msgstr "I2Cのアドレス %n に %L を書く"
 
+msgid "I2C write addr %n data %n"
+msgstr "I2Cのアドレス %n1 に %n2 を書く"
+
+msgid "I2C write addr %n data %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 を書く"
+
+msgid "I2C write addr %n data %n %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 を書く"
+
 msgid "show python code"
 msgstr "Pythonコードを表示する"
 
@@ -758,10 +767,10 @@ msgid "%n between %n and %n"
 msgstr "%n1 が %n2 以上 %n3 以下"
 
 msgid "has duplicate hat blocks."
-msgstr "開始ブロックが重複しています"
+msgstr "同名の開始ブロックがあります"
 
-msgid "set usonic trig %n echo %n"
-msgstr "超音波センサのTrigを %n1 にEchoを %n2 に設定する"
+msgid "set usonic trig %j echo %j"
+msgstr "超音波センサのTrigを %j1 にEchoを %j2 に設定する"
 
 msgid "usonic distance"
 msgstr "超音波センサの距離"
@@ -801,4 +810,34 @@ msgstr "%n の %n ビット左シフト"
 
 msgid "%n bit shift right %n"
 msgstr "%n の %n ビット右シフト"
+
+msgid "Subroutine name:"
+msgstr "サブルーチン名:"
+
+msgid "too long name"
+msgstr "名前が長すぎます"
+
+msgid "connect before send"
+msgstr "接続してから送信してください"
+
+msgid "initialize micro:bit"
+msgstr "micro:bitを初期化する"
+
+msgid "initialize micro:bit?"
+msgstr "micro:bitを初期化しますか？"
+
+msgid "init exboard"
+msgstr "拡張ボードを初期化する"
+
+msgid "servo ch %n degrees %n"
+msgstr "ch %n1 のサーボの角度を %n2 にする"
+
+msgid "motor ch %n speed %n"
+msgstr "ch %n1 のモーターの速度を %n2 にする"
+
+msgid "subroutine %e"
+msgstr "サブルーチン %e"
+
+msgid "call %e"
+msgstr "%e を呼び出す"
 

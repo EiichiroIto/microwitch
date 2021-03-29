@@ -331,8 +331,8 @@ msgstr "アナログピン %n を %n にする"
 msgid "analog set period pin %n to %n usec"
 msgstr "アナログピン %n のしゅうきを %n マイクロびょうにする"
 
-msgid "pin %n is touched"
-msgstr "ピン %n をさわっている"
+msgid "%T is touched"
+msgstr "%T をさわっている"
 
 msgid "led"
 msgstr "LED"
@@ -740,7 +740,16 @@ msgid "I2C read addr %n"
 msgstr "I2Cでアドレス %n をよみこむ"
 
 msgid "I2C write addr %n data %L"
-msgstr "I2Cでアドレス %n に %L をかきこむ"
+msgstr "I2Cでアドレス %n に %L をかく"
+
+msgid "I2C write addr %n data %n"
+msgstr "I2Cのアドレス %n1 に %n2 をかく"
+
+msgid "I2C write addr %n data %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 をかく"
+
+msgid "I2C write addr %n data %n %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 をかく"
 
 msgid "show python code"
 msgstr "Pythonコードをひょうじする"
@@ -758,10 +767,10 @@ msgid "%n between %n and %n"
 msgstr "%n1 が %n2 いじょう %n3 いか"
 
 msgid "has duplicate hat blocks."
-msgstr "かいしブロックがちょうふくしています"
+msgstr "どうめいのかいしブロックがあります"
 
-msgid "set usonic trig %n echo %n"
-msgstr "ちょうおんぱセンサのTrigを %n1 にEchoを %n2 にせっていする"
+msgid "set usonic trig %j echo %j"
+msgstr "ちょうおんぱセンサのTrigを %j1 にEchoを %j2 にせっていする"
 
 msgid "usonic distance"
 msgstr "ちょうおんぱセンサのきょり"
@@ -801,4 +810,34 @@ msgstr "%n の %n ビットひだりシフト"
 
 msgid "%n bit shift right %n"
 msgstr "%n の %n ビットみぎシフト"
+
+msgid "Subroutine name:"
+msgstr "サブルーチンめい:"
+
+msgid "too long name"
+msgstr "なまえがながすぎます"
+
+msgid "connect before send"
+msgstr "せつぞくしてからそうしんしてください"
+
+msgid "initialize micro:bit"
+msgstr "micro:bitをしょきかする"
+
+msgid "initialize micro:bit?"
+msgstr "micro:bitをしょきかしますか？"
+
+msgid "init exboard"
+msgstr "かくちょうボードをしょきかする"
+
+msgid "servo ch %n degrees %n"
+msgstr "ch %n1 のサーボのかくどを %n2 にする"
+
+msgid "motor ch %n speed %n"
+msgstr "ch %n1 のモーターのそくどを %n2 にする"
+
+msgid "subroutine %e"
+msgstr "サブルーチン %e"
+
+msgid "call %e"
+msgstr "%e をよびだす"
 
