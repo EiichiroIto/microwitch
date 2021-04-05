@@ -25,4 +25,4 @@
 'change default basedir.cs'
 'change default homedir.cs'
 'change default translation dir.cs'
-) do: [:each | (FileStream fileNamed: 'src/', each) fileIn].
+) do: [:each | (FileStream fileNamed: 'v07/', each) fileIn].
