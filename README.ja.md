@@ -1,10 +1,12 @@
 # micro:witch
 micro:witch は、micro:bit のためのブロック型プログラミング環境です。（based on MIT Scratch）
 
-![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/src/images/screenshot1.png)
+![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
-## インストール方法
-1. 適当なフォルダにコピーしてください。
+## ダウンロードとインストールの方法
+1. [Releases ページ](https://github.com/EiichiroIto/microwitch/releases) から最新のリリースを選んでください。
+1. Assets の中からリリースファイルを選んでダウンロードしてください。（例 microwitch-v1.2.3-win.zip）
+1. ダウンロードしたファイルを適当なフォルダに展開してください。
 
 ## 起動方法
 1. Scratch.exe を実行してください。

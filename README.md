@@ -1,10 +1,12 @@
 # micro:witch
 micro:witch is a block-style programming environment for micro:bit based on MIT Scratch.
 
-![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/src/images/screenshot1.png)
+![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
-## Installation
-1. Copy all files to an appropriate folder.
+## Download and Install
+1. Select the newest release from [Releases page](https://github.com/EiichiroIto/microwitch/releases).
+1. Download a release file from Assets. (ex. microwitch-v1.2.3-win.zip)
+1. Unzip the downloaded file to an appropriate folder.
 
 ## Run
 1. Start Scratch.exe.
