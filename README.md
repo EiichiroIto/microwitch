@@ -1,42 +1,72 @@
 # micro:witch
 micro:witch is a block-style programming environment for micro:bit based on MIT Scratch.
 
+(BBC micro:bit v2 is supported now and some functions are available)
+
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
 ## Download and Install
 1. Select the newest release from [Releases page](https://github.com/EiichiroIto/microwitch/releases).
-1. Download a release file from Assets. (ex. microwitch-v1.2.3-win.zip)
+1. Download a release file from Assets. (ex. microwitch-v1.2.4-win.zip)
 1. Unzip the downloaded file to an appropriate folder.
 
 ## Run
 1. Start Scratch.exe.
 
+## Upload firmware
+To use the micro:witch, you need to upload the firmware to the micro:bit by following the steps below.
+
+1. Connect a micro:bit to your PC.
+1. Wait until the computer recognizes the micro:bit as storage device.
+1. Select "initialize micro:bit" from Device menu.
+1. Click Yes on "initialize micro:bit?" dialog.
+1. When the firmware has been transferred and the micro:bit is recognized again, you are done.
+
+If the micro:bit is not recognized, the file selection dialog may appear in the third step. Please check the connection.
+
 ## Usage
 1. Connect a micro:bit to your PC.
-1. Wait until recoginizing the micro:bit as a USB drive.
-1. Create a program starting from "When green flag clicked" block.
-1. Select "send to micro:bit" from Device menu.
-1. The program runs on micro:bit.
-
-## REPL Execution
-1. Connect a micro:bit to your PC.
 1. Select "Connect to micro:bit" from Device menu.
-1. Select a port connecting to the micro:bit.
-1. Wait "status: ready" for several seconds.
-1. When you click some block, the code is transfered to the micro:bit then executed.
-1. You can send a program quickly while the micro:bit is connecting.
+1. Select a port connecting to the micro:bit. (ex. COM3)
+1. Wait "status: ready" for a few seconds.
+1. When you click on the script you have created, it will be transferred to the micro:bit and executed.
+
+## Trasnferring a script
+Just clicking on the script you have created will not save the script
+in the micro:bit, so the script in the micro:bit will be lost when you
+power off or reboot.
+
+To save the script and have it run automatically when power is turned
+on, follow the steps below.
+
+1. Put up a block for "When the green flag is clicked".
+1. Create the scripts you need.
+1. After connecting micro:bit to the computer, select "Send to micro:bit".
+1. Once the script has been transferred, the micro:bit will automatically reset and the script will start running.
+
+To stop the running script, press the red button in the upper right corner of the screen.
 
 ## Trouble shooting
-### I can't connect to my micro:bit or transfer a program on REPL Execution.
-Firmware on your micro:bit may be old version. You can upgrage newer firmware. Please check following site.
+### I can't connect to my micro:bit or transfer a program.
+Unplug other USB devices such as USB flash drives before trying.
 
-[Updating your micro:bit firmware](https://microbit.org/get-started/user-guide/firmware/)
+### Cannot transfer firmware properly.
+Unplug the micro:bit from the computer, wait a moment, stick it back in, and try again.
 
-### REPL Program does not start on reset.
-1. If already running in REPL mode, select "Disconnect from micro:bit" from Device menu.
-1. Select "New" from File menu to clear programs.
-1. Select "send to micro:bit" from Device menu to send empty firmware.
-1. Then you may do "REPL Execution" again.
+Make sure that the cable connecting the micro:bit to the PC is for data transfer.
+
+The DAPLink firmware version may be out of date. Please search for
+"microbit firmware DAPLink update" and update the DAPLink firmware.
+
+### "Traceback ... and other messages are displayed. Or, the script cannot be executed.
+The firmware version may be old. Please transfer the firmware to the micro:bit again.
+
+You may be using commands (such as sound events) added in micro:bit v2 on an older micro:bit.
+
+### The script cannot be executed on micro:bit.
+In the device menu, select "Connect to micro:bit" and choose a port.
+
+Press the Stop button to confirm the "satus: ready" message is displayed.
 
 ## License
 MIT License
