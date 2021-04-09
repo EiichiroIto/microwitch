@@ -22,7 +22,7 @@ To use the micro:witch, you need to upload the firmware to the micro:bit by foll
 1. Click Yes on "initialize micro:bit?" dialog.
 1. When the firmware has been transferred and the micro:bit is recognized again, you are done.
 
-If the micro:bit is not recognized, the file selection dialog may appear in the third step. Please check the connection.
+If the file selection dialog is displayed in the third step, micro:bit may not be recognized properly. Please check the connection.
 
 ## Usage
 1. Connect a micro:bit to your PC.
