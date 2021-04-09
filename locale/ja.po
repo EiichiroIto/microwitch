@@ -841,3 +841,21 @@ msgstr "サブルーチン %e"
 msgid "call %e"
 msgstr "%e を呼び出す"
 
+msgid "was event %U ?"
+msgstr "%U イベントが起こったか?"
+
+msgid "is event %U ?"
+msgstr "%U イベントが起こっている?"
+
+msgid "set threshold event %U value %n"
+msgstr "イベント %U のしきい値を %n にする"
+
+msgid "sound level"
+msgstr "音量"
+
+msgid "speaker on"
+msgstr "スピーカーオン"
+
+msgid "speaker off"
+msgstr "スピーカーオフ"
+

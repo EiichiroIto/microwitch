@@ -1,0 +1,1 @@
+'From MIT Squeak 0.9.4 (June 1, 2003) [No updates present.] on 1 April 2021 at 10:03:07 pm'!!ScratchFileChooserDialog class methodsFor: 'accessing' stamp: 'EiichiroIto 4/1/2021 22:00'!baseDirectory	^ FileDirectory default! !
