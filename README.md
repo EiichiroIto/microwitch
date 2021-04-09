@@ -47,9 +47,6 @@ on, follow the steps below.
 To stop the running script, press the red button in the upper right corner of the screen.
 
 ## Trouble shooting
-### I can't connect to my micro:bit or transfer a program.
-Unplug other USB devices such as USB flash drives before trying.
-
 ### Cannot transfer firmware properly.
 Unplug the micro:bit from the computer, wait a moment, stick it back in, and try again.
 
