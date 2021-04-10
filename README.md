@@ -6,12 +6,13 @@ micro:witch is a block-style programming environment for micro:bit based on MIT 
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
 ## Download and Install
-1. Select the newest release from [Releases page](https://github.com/EiichiroIto/microwitch/releases).
-1. Download a release file from Assets. (ex. microwitch-v1.2.4-win.zip)
+1. Open the newest [Releases page](https://github.com/EiichiroIto/microwitch/releases).
+1. Download the release file from Assets. (ex. microwitch-v1.2.4-win.zip)
 1. Unzip the downloaded file to an appropriate folder.
 
 ## Run
 1. Start Scratch.exe.
+2. Select language.
 
 ## Upload firmware
 To use the micro:witch, you need to upload the firmware to the micro:bit by following the steps below.
