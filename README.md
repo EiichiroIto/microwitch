@@ -6,7 +6,7 @@ micro:witch is a block-style programming environment for micro:bit based on MIT 
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
 ## Download and Install
-1. Open the newest [Releases page](https://github.com/EiichiroIto/microwitch/releases).
+1. Open [Releases page](https://github.com/EiichiroIto/microwitch/releases) and select newest release.
 1. Download the release file from Assets. (ex. microwitch-v1.2.4-win.zip)
 1. Unzip the downloaded file to an appropriate folder.
 
