@@ -12,7 +12,7 @@ micro:witch is a block-style programming environment for micro:bit based on MIT 
 
 ## Run
 1. Start Scratch.exe.
-2. Select language.
+2. Select a language.
 
 ## Upload firmware
 To use the micro:witch, you need to upload the firmware to the micro:bit by following the steps below.

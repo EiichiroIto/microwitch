@@ -858,3 +858,7 @@ msgstr "スピーカーオン"
 
 msgid "speaker off"
 msgstr "スピーカーオフ"
+
+msgid "no micro:bit found"
+msgstr "micro:bit がみつかりません"
+

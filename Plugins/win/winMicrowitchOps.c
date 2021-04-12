@@ -69,15 +69,23 @@ EnumerateComPorts(char *dst, int max)
   int i;
   char *ptr = dst;
   int org_max = max;
-  TCHAR tmpbuf[128];
+  TCHAR tmpbuf[256];
 
   SP_DEVINFO_DATA DeviceInfoData = {sizeof(SP_DEVINFO_DATA)};
   HDEVINFO hDevInfo = SetupDiGetClassDevs(&GUID_DEVINTERFACE_COMPORT, NULL, NULL, (DIGCF_PRESENT|DIGCF_DEVICEINTERFACE));
   for (i=0; SetupDiEnumDeviceInfo(hDevInfo, i, &DeviceInfoData); i++) {
     HKEY key = SetupDiOpenDevRegKey(hDevInfo, &DeviceInfoData,  DICS_FLAG_GLOBAL, 0, DIREG_DEV, KEY_QUERY_VALUE);
     if ( key ) {
-      DWORD type = 0;
-      DWORD size = max;
+      DWORD type;
+      DWORD size = sizeof(tmpbuf);
+      if (!SetupDiGetDeviceRegistryProperty(hDevInfo, &DeviceInfoData, SPDRP_HARDWAREID, &type, (PBYTE)tmpbuf, size, &size)) {
+	continue;
+      }
+      if (_tcscmp(tmpbuf, _T("USB\\VID_0D28&PID_0204&REV_1000&MI_01"))) {
+	continue;
+      }
+      type = 0;
+      size = max;
       RegQueryValueEx(key, _T("PortName"), NULL, &type , (LPBYTE) tmpbuf, &size);
       size = WideCharToMultiByte(CP_ACP, 0, tmpbuf, wcslen(tmpbuf), ptr, max, NULL, NULL);
       ptr[size++] = '\r';
@@ -99,12 +107,12 @@ void
 main(int argc, char *argv[])
 {
   int ret;
-  char buf[1024];
+  char buffer[1024];
 
-  ret = MicrobitDevice(buf, sizeof buf);
-  printf("ret=%d,buf=%s\n", ret, buf);
+  ret = MicrobitDevice(buffer, sizeof buffer);
+  printf("ret=%d,buf=%s\n", ret, buffer);
 
-  ret = EnumerateComPort(buffer, sizeof buffer);
+  ret = EnumerateComPorts(buffer, sizeof buffer);
   printf("size=%d\n", ret);
   printf("ComPorts=<%s>\n", buffer);
 }
