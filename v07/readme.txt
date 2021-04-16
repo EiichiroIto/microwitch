@@ -1,15 +1,10 @@
-build scratch image
+To build scratch image
 
 ScratchSourceCode1.4 is needed.
 
-fileIn files in following order.
+DoIt filein.st in this folder.
 
-1. Microwitch-Plugins.st
-2. Microwitch-Objects.st
-3. Microwitch-Translator.st
-4. microwitch06-startup.cs
+To build scratch plugin
 
-build scratch plugin
-
-see build.sh at Plugins directory.
+execute build.sh in the Plugins directory.
 

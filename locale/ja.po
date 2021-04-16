@@ -862,3 +862,9 @@ msgstr "スピーカーオフ"
 msgid "no micro:bit found"
 msgstr "micro:bit が見つかりません"
 
+msgid "unable to find the appropriate firmware"
+msgstr "適切なファームウェアが見つかりません"
+
+msgid "initializing micro:bit done, please re-send scripts"
+msgstr "micro:bit を初期化しました。もう一度送信してください"
+

@@ -28,8 +28,9 @@ EXPORT int primMicrobitDevice(void);
 EXPORT int primEnumerateComPorts(void);
 EXPORT int setInterpreter(struct VirtualMachine* anInterpreter);
 
+char nameStr[2048];
+
 EXPORT int primMicrobitDevice(void) {
-	char nameStr[1000];
 	int i;
 	int ret;
 	int count;
@@ -52,7 +53,6 @@ EXPORT int primMicrobitDevice(void) {
 }
 
 EXPORT int primEnumerateComPorts(void) {
-	char nameStr[1000];
 	int i;
 	int ret;
 	int resultOop;

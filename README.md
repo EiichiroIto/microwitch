@@ -32,7 +32,7 @@ If the file selection dialog is displayed in the third step, micro:bit may not b
 1. Wait "status: ready" for a few seconds.
 1. When you click on the script you have created, it will be transferred to the micro:bit and executed.
 
-## Trasnferring a script
+## Transferring a script
 Just clicking on the script you have created will not save the script
 in the micro:bit, so the script in the micro:bit will be lost when you
 power off or reboot.

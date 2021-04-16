@@ -69,7 +69,7 @@ EnumerateComPorts(char *dst, int max)
   int i;
   char *ptr = dst;
   int org_max = max;
-  TCHAR tmpbuf[256];
+  TCHAR tmpbuf[512];
 
   SP_DEVINFO_DATA DeviceInfoData = {sizeof(SP_DEVINFO_DATA)};
   HDEVINFO hDevInfo = SetupDiGetClassDevs(&GUID_DEVINTERFACE_COMPORT, NULL, NULL, (DIGCF_PRESENT|DIGCF_DEVICEINTERFACE));
@@ -77,44 +77,69 @@ EnumerateComPorts(char *dst, int max)
     HKEY key = SetupDiOpenDevRegKey(hDevInfo, &DeviceInfoData,  DICS_FLAG_GLOBAL, 0, DIREG_DEV, KEY_QUERY_VALUE);
     if ( key ) {
       DWORD type;
-      DWORD size = sizeof(tmpbuf);
-      if (!SetupDiGetDeviceRegistryProperty(hDevInfo, &DeviceInfoData, SPDRP_HARDWAREID, &type, (PBYTE)tmpbuf, size, &size)) {
-	continue;
-      }
-      if (_tcscmp(tmpbuf, _T("USB\\VID_0D28&PID_0204&REV_1000&MI_01"))) {
-	continue;
-      }
+      DWORD size, size2;
       type = 0;
       size = max;
       RegQueryValueEx(key, _T("PortName"), NULL, &type , (LPBYTE) tmpbuf, &size);
       size = WideCharToMultiByte(CP_ACP, 0, tmpbuf, wcslen(tmpbuf), ptr, max, NULL, NULL);
-      ptr[size++] = '\r';
 #ifdef MAIN
       ptr[size++] = '\n';
+#else
+      ptr[size++] = '\r';
 #endif /* MAIN */
+      size2 = sizeof(tmpbuf);
+      if (SetupDiGetDeviceRegistryProperty(hDevInfo, &DeviceInfoData, SPDRP_HARDWAREID, &type, (PBYTE)tmpbuf, size2, &size2)) {
+	size2 = WideCharToMultiByte(CP_ACP, 0, tmpbuf, wcslen(tmpbuf), &ptr[size], max, NULL, NULL);
+	size += size2;
+#ifdef MAIN
+	ptr[size++] = '\n';
+#else
+	ptr[size++] = '\r';
+#endif /* MAIN */
+      }
       ptr[size] = 0;
       ptr += size;
       max -= size;
     }
   }
+  SetupDiDestroyDeviceInfoList(hDevInfo);
   return org_max - max;
 }
 
 #ifdef MAIN
 #include <stdio.h>
+char buffer[1024];
+
+void
+dump(const char *buf, int size)
+{
+  int i, j;
+
+  for (i = 0; i < (size + 15) / 16; i ++) {
+    for (j = 0; j < 16; j ++) {
+      int pos = i * 16 + j;
+      if (pos < size) {
+	printf("%02X ", (unsigned int) buf[pos]);
+      }
+    }
+    printf("\n");
+  }
+}
 
 void
 main(int argc, char *argv[])
 {
   int ret;
-  char buffer[1024];
 
+  memset(buffer, 0, sizeof buffer);
   ret = MicrobitDevice(buffer, sizeof buffer);
-  printf("ret=%d,buf=%s\n", ret, buffer);
+  printf("Microbit Drive:\n%d bytes\n'%s'\n", ret, buffer);
 
+  memset(buffer, 0, sizeof buffer);
   ret = EnumerateComPorts(buffer, sizeof buffer);
-  printf("size=%d\n", ret);
-  printf("ComPorts=<%s>\n", buffer);
+  printf("ComPorts:\n%d bytes\n%s\n", ret, buffer);
+  printf("Dumps:\n");
+  dump(buffer, ret);
 }
 
 #endif /* MAIN */
