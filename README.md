@@ -66,5 +66,10 @@ In the device menu, select "Connect to micro:bit" and choose a port.
 
 Press the Stop button to confirm the "satus: ready" message is displayed.
 
+### Ultrasonic sensor or expansion boards cannot be used , or they do not respond
+Create a script that uses the ultrasonic sensor or expansion board, and then do "Send to micro:bit" afterwards.
+
+The program required for the operation will be transferred automatically. (It may take some time.)
+
 ## License
 MIT License
