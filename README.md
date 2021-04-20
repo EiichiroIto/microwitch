@@ -32,9 +32,8 @@ If the file selection dialog is displayed in the third step, micro:bit may not b
 ## Usage
 1. Connect a micro:bit to your PC.
 1. Select "Connect to micro:bit" from Device menu.
-1. Select a port connecting to the micro:bit. (ex. COM3)
-1. Wait "status: ready" for a few seconds.
-1. When you click on the script you have created, it will be transferred to the micro:bit and executed.
+2. It will automatically connect to the micro:bit and the status display will change to "Ready". 
+5. When you click on the script you have created, it will be transferred to the micro:bit and executed.
 
 ## Transferring a script
 Just clicking on the script you have created will not save the script
