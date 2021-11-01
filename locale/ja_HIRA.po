@@ -868,3 +868,23 @@ msgstr "てきせつなファームウェアがみつかりません"
 msgid "initializing micro:bit done, please re-send scripts"
 msgstr "micro:bit をしょきかしました。もういちどそうしんしてください"
 
+msgid "select HuskyLens algorithm %u"
+msgstr "HuskyLensのアルゴリズムを %u にする"
+
+msgid "get HuskyLens data"
+msgstr "HuskyLensのデータをしゅとくする"
+
+msgid "number of HuskyLens data"
+msgstr "HuskyLensのデータすう"
+
+msgid "%p of %n th HuskyLens data"
+msgstr "HuskyLensの %n ばんめのデータの %p"
+
+msgid "detect faces"
+msgstr "かおにんしき"
+
+msgid "object tracking"
+msgstr "ぶったいついせき"
+
+msgid "line tracking"
+msgstr "ラインついせき"

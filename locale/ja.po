@@ -868,3 +868,23 @@ msgstr "適切なファームウェアが見つかりません"
 msgid "initializing micro:bit done, please re-send scripts"
 msgstr "micro:bit を初期化しました。もう一度送信してください"
 
+msgid "select HuskyLens algorithm %u"
+msgstr "HuskyLensのアルゴリズムを %u にする"
+
+msgid "get HuskyLens data"
+msgstr "HuskyLensのデータを取得する"
+
+msgid "number of HuskyLens data"
+msgstr "HuskyLensのデータ数"
+
+msgid "%p of %n th HuskyLens data"
+msgstr "HuskyLensの %n 番目のデータの %p"
+
+msgid "detect faces"
+msgstr "顔認識"
+
+msgid "object tracking"
+msgstr "物体追跡"
+
+msgid "line tracking"
+msgstr "ライン追跡"
