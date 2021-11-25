@@ -1,0 +1,1 @@
+'From MIT Squeak 0.9.4 (June 1, 2003) [No updates present.] on 25 November 2021 at 10:07:18 pm'!!MicrobitCode methodsFor: 'io blocks'!initExBoard: aMorph	self useExBoard.	stream nextPutAll: ExBoardModule init! !
