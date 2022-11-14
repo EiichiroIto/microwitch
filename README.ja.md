@@ -1,7 +1,9 @@
 # micro:witch
 micro:witch は、BBC micro:bit のためのブロック型プログラミング環境です。（based on MIT Scratch）
-
 （BBC micro:bit v2に対応し、一部の機能が利用できるようになっています）
+
+![logo](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch_logo.png)
+(かりんさまによる micro:witch オフィシャルロゴ)
 
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 

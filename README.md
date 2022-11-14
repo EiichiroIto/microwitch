@@ -1,7 +1,9 @@
 # micro:witch
 micro:witch is a block-style programming environment for micro:bit based on MIT Scratch.
-
 (BBC micro:bit v2 is supported now and some functions are available)
+
+![logo](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch_logo.png)
+(micro:witch official logo created by Karin sama.)
 
 [Japanese documents](https://github.com/EiichiroIto/microwitch/blob/master/README.ja.md)
 
