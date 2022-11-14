@@ -1,9 +1,7 @@
 # micro:witch
 micro:witch は、BBC micro:bit のためのブロック型プログラミング環境です。（based on MIT Scratch）
-（BBC micro:bit v2に対応し、一部の機能が利用できるようになっています）
 
-![logo](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch_logo.png)
-(かりんさまによる micro:witch オフィシャルロゴ)
+（BBC micro:bit v2に対応し、一部の機能が利用できるようになっています）
 
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
@@ -70,6 +68,11 @@ DAPLink ファームウェアのバージョンが古い可能性があります
 超音波センサーや拡張ボードを使ったスクリプトを作成したら、一度、「micro:bit に送信する」を実行してください。
 
 動作に必要なプログラムが自動的に転送されます。（少し時間がかかります）
+
+## オフィシャルロゴ
+かりんさまによる micro:witch オフィシャルロゴ
+
+![logo](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch_logo.png)
 
 ## ライセンス
 MIT License

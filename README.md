@@ -1,9 +1,7 @@
 # micro:witch
 micro:witch is a block-style programming environment for micro:bit based on MIT Scratch.
-(BBC micro:bit v2 is supported now and some functions are available)
 
-![logo](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch_logo.png)
-(micro:witch official logo created by Karin sama.)
+(BBC micro:bit v2 is supported now and some functions are available)
 
 [Japanese documents](https://github.com/EiichiroIto/microwitch/blob/master/README.ja.md)
 
@@ -75,6 +73,11 @@ Press the Stop button to confirm the "satus: ready" message is displayed.
 Create a script that uses the ultrasonic sensor or expansion board, and then do "Send to micro:bit" afterwards.
 
 The program required for the operation will be transferred automatically. (It may take some time.)
+
+## Official Logo
+micro:witch official logo created by Karin sama.
+
+![logo](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch_logo.png)
 
 ## License
 MIT License
