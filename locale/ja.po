@@ -888,3 +888,6 @@ msgstr "物体追跡"
 
 msgid "line tracking"
 msgstr "ライン追跡"
+
+msgid "reset"
+msgstr "リセット"

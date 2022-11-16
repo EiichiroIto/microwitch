@@ -888,3 +888,6 @@ msgstr "ぶったいついせき"
 
 msgid "line tracking"
 msgstr "ラインついせき"
+
+msgid "reset"
+msgstr "リセット"
