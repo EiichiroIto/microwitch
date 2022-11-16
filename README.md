@@ -7,6 +7,10 @@ micro:witch is a block-style programming environment for micro:bit based on MIT 
 
 [for Raspberry pi](https://github.com/EiichiroIto/microwitch-linux)
 
+You can try micro:witch v2 if you like.
+
+[micro:witch v2](https://github.com/EiichiroIto/microwitch2)
+
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
 ## Download and Install

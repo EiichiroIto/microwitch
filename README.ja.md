@@ -3,6 +3,10 @@ micro:witch は、BBC micro:bit のためのブロック型プログラミング
 
 （BBC micro:bit v2に対応し、一部の機能が利用できるようになっています）
 
+よかったら micro:witch v2 も試してみてください。
+
+[micro:witch v2](https://github.com/EiichiroIto/microwitch2)
+
 ![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
 
 ## ダウンロードとインストールの方法
