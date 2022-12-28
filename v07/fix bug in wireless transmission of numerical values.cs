@@ -1,0 +1,1 @@
+'From MIT Squeak 0.9.4 (June 1, 2003) [No updates present.] on 26 December 2022 at 5:17:36 pm'!!MicrobitCode methodsFor: 'comm blocks'!sendRadio: aMorph 	| tmp |	self useRadio.	tmp := self unaryFunction: 'str' of: aMorph.	stream nextPutAll: 'radio.send(';	 nextPutAll: tmp;	 nextPut: $)! !

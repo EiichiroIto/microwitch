@@ -1,170 +1,68 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: Scratch\n"
-"Report-Msgid-Bugs-To: Evelyn Eastmond <evelyn@media.mit.edu>\n"
-"POT-Creation-Date: 2008-05-02\n"
-"PO-Revision-Date: 2018-07-03 20:07+0200\n"
-"Last-Translator: Eiichiro Ito <ghc02331@nifty.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.1.6\n"
+msgid "%H sensor value"
+msgstr "%H のセンサち"
 
-############################################
-# FORMATTING
-############################################
-# Language name as you'd like it to appear in the Languages menu
-# (Required)
-msgid "Language-Name"
-msgstr "にほんご"
+msgid "%L contains %s"
+msgstr "%L に %s がふくまれる"
 
-# Directionality of language
-# LTR = Left to Right
-# RTL = Right to Left
-msgid "Language-Direction"
-msgstr "LTR"
-
-# Scale to apply to font size (2 for twice as large)
-# Use this if the font is too small for legibility on the Scratch interface
-msgid "Font-Scale"
-msgstr "1.3"
-
-# Set to 'true' or 'false'
-# Use this if you do not want any of the text to be bolded, for legibility
-msgid "Suppress-Bold"
-msgstr "false"
-
-# Font to use on a Windows system
-msgid "Win-Font"
-msgstr "Tahoma"
-
-# Font to use on a Mac system
-msgid "Mac-Font"
-msgstr "times"
-
-# Font to use on a Linux system
-msgid "Linux-Font"
-msgstr "Mona"
-
-############################################
-# Scratch
-############################################
-msgid "control"
-msgstr "せいぎょ"
-
-msgid "operators"
-msgstr "えんざん"
-
-msgid "variables"
-msgstr "へんすう"
-
-msgid "File"
-msgstr "ファイル"
-
-msgid "Edit"
-msgstr "へんしゅう"
-
-msgid "Scripts"
-msgstr "スクリプト"
-
-msgid "when %m clicked"
-msgstr "%m がクリックされたとき"
-
-msgid "forever"
-msgstr "ずっと"
-
-msgid "repeat %n"
-msgstr "%n かいくりかえす"
-
-msgid "repeat until %b"
-msgstr "%b までくりかえす"
-
-msgid "if %b"
-msgstr "もし %b なら"
-
-msgid "else"
-msgstr "でなければ"
-
-msgid "%n mod %n"
-msgstr "%n を %n でわったあまり"
-
-msgid "pick random %n to %n"
-msgstr "%n から %n までのらんすう"
+msgid "%T is touched"
+msgstr "%T をさわっている"
 
 msgid "%b and %b"
 msgstr "%b かつ %b"
 
 msgid "%b or %b"
-msgstr "%b または %b "
-
-msgid "not %b"
-msgstr "%b ではない"
-
-msgid "true"
-msgstr "はい"
-
-msgid "false"
-msgstr "いいえ"
-
-msgid "join %s %s"
-msgstr "%s と %s"
-
-msgid "letter %n of %s"
-msgstr "%s の %n ばんめのもじ"
-
-msgid "length of %s"
-msgstr "%s のながさ"
-
-msgid "round %n"
-msgstr "%n をまるめる"
+msgstr "%b または %b"
 
 msgid "%f of %n"
 msgstr "%n の %f"
 
-msgid "add %s to %L"
-msgstr "%s を %L についかする"
+msgid "%n between %n and %n"
+msgstr "%n が %n いじょう %n いか"
 
-msgid "delete %y of %L"
-msgstr "%y ばんめを %L からさくじょする"
+msgid "%n bit shift left %n"
+msgstr "%n の %n ビットひだりシフト"
 
-msgid "insert %s at %i of %L"
-msgstr "%L の %i ばんめに %s をそうにゅうする"
+msgid "%n bit shift right %n"
+msgstr "%n の %n ビットみぎシフト"
 
-msgid "replace item %i of %L with %s"
-msgstr "%L の %i ばんめを %s でおきかえる"
+msgid "%n bitand %n"
+msgstr "%n と %n のろんりせき"
 
-msgid "item %i of %L"
-msgstr "%L の %i ばんめ"
+msgid "%n bitor %n"
+msgstr "%n と %n のろんりわ"
 
-msgid "length of %L"
-msgstr "%L のながさ"
+msgid "%n bitxor %n"
+msgstr "%n と %n のはいたてきろんりわ"
 
-msgid "%L contains %s"
-msgstr "%L に %s がふくまれる"
+msgid "%n mod %n"
+msgstr "%n を %n でわったあまり"
 
-msgid "Make a list"
-msgstr "リストをつくる"
+msgid "%p of %n th HuskyLens data"
+msgstr "HuskyLensの %n ばんめのデータの %p"
 
-msgid "Make a variable"
-msgstr "あたらしいへんすうをつくる"
+msgid "%s is None"
+msgstr "%s がNoneか"
 
-msgid "Variable name?"
-msgstr "へんすうめい?"
+msgid "(empty)"
+msgstr "(から)"
 
-msgid "OK"
-msgstr "OK"
+msgid "About micro:witch"
+msgstr "micro:witchについて"
+
+msgid "About this project:"
+msgstr "このプロジェクトについて:"
 
 msgid "Cancel"
 msgstr "キャンセル"
 
-msgid "set %v to %n"
-msgstr "%v を %n にする"
+msgid "Connect to micro:bit"
+msgstr "micro:bit にせつぞくする"
 
-msgid "change %v by %n"
-msgstr "%v を %n ずつかえる"
+msgid "Currently pin number is supported up to 15"
+msgstr "げんざいのところピンばんごうは15までしていできます"
+
+msgid "Delete a NeoPixel"
+msgstr "NeoPixel をさくじょ"
 
 msgid "Delete a list"
 msgstr "リストをさくじょする"
@@ -172,14 +70,92 @@ msgstr "リストをさくじょする"
 msgid "Delete a variable"
 msgstr "へんすうをさくじょ"
 
+msgid "Device"
+msgstr "デバイス"
+
+msgid "Disconnect from micro:bit"
+msgstr "micro:bit をせつだんする"
+
+msgid "Don't Save"
+msgstr "ほぞんしない"
+
+msgid "Edit"
+msgstr "へんしゅう"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "Font-Scale"
+msgstr "1.3"
+
+msgid "I2C read addr %n"
+msgstr "I2Cでアドレス %n をよみこむ"
+
+msgid "I2C write addr %n data %L"
+msgstr "I2Cでアドレス %n に %L をかく"
+
+msgid "I2C write addr %n data %n"
+msgstr "I2Cのアドレス %n1 に %n2 をかく"
+
+msgid "I2C write addr %n data %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 をかく"
+
+msgid "I2C write addr %n data %n %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 をかく"
+
+msgid "Language-Direction"
+msgstr "LTR"
+
+msgid "Language-Name"
+msgstr "にほんご"
+
+msgid "Linux-Font"
+msgstr "Mona"
+
 msgid "List name?"
 msgstr "リストのなまえは?"
+
+msgid "Mac-Font"
+msgstr "times"
+
+msgid "Make a NeoPixel"
+msgstr "NeoPixel をつくる"
+
+msgid "Make a list"
+msgstr "リストをつくる"
+
+msgid "Make a variable"
+msgstr "あたらしいへんすうをつくる"
 
 msgid "New"
 msgstr "しんき"
 
+msgid "New Filename:"
+msgstr "あたらしいファイルめい"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No NeoPixels."
+msgstr "NeoPixelはありません"
+
+msgid "OK"
+msgstr "OK"
+
 msgid "Open"
 msgstr "ひらく"
+
+msgid "Open Project"
+msgstr "プロジェクトをひらく"
+
+msgid "Project author:"
+msgstr "プロジェクトのさくしゃ:"
+
+msgid "Python code"
+msgstr "Pythonコード"
+
+msgid "Quit"
+msgstr "しゅうりょう"
 
 msgid "Save"
 msgstr "ほぞんする"
@@ -187,35 +163,32 @@ msgstr "ほぞんする"
 msgid "Save As"
 msgstr "なまえをつけてほぞん"
 
-msgid "Quit"
-msgstr "しゅうりょう"
+msgid "Save Project"
+msgstr "プロジェクトをほぞん"
 
-msgid "Undelete"
-msgstr "さくじょのとりけし"
+msgid "Save changes before quitting?"
+msgstr "しゅうりょうするまえにへんこうをほぞんしますか?"
 
 msgid "Save the current project?"
 msgstr "げんざいのプロジェクトをほぞんする?"
 
-msgid "Open Project"
-msgstr "プロジェクトをひらく"
-
-msgid "Save Project"
-msgstr "プロジェクトをほぞん"
-
-msgid "New Filename:"
-msgstr "あたらしいファイルめい"
-
-msgid "Project author:"
-msgstr "プロジェクトのさくしゃ:"
-
-msgid "About this project:"
-msgstr "このプロジェクトについて:"
-
 msgid "Save this project"
 msgstr "このプロジェクトをほぞんする"
 
+msgid "Scripts"
+msgstr "スクリプト"
+
+msgid "Send to micro:bit"
+msgstr "micro:bitにそうしんする"
+
 msgid "Set language"
 msgstr "げんごをせってい"
+
+msgid "Sprite"
+msgstr "スプライト"
+
+msgid "Stage"
+msgstr "ステージ"
 
 msgid "Start green flag scripts"
 msgstr "みどりのはたのスクリプトをかいし"
@@ -223,35 +196,11 @@ msgstr "みどりのはたのスクリプトをかいし"
 msgid "Stop everything"
 msgstr "すべてをちゅうし"
 
-msgid "(empty)"
-msgstr "(から)"
+msgid "Subroutine name:"
+msgstr "サブルーチンめい:"
 
-msgid "length"
-msgstr "ながさ"
-
-msgid "Stage"
-msgstr "ステージ"
-
-msgid "Sprite"
-msgstr "スプライト"
-
-msgid "clean up"
-msgstr "きれいにする"
-
-msgid "save picture of scripts"
-msgstr "スクリプトのがぞうをほぞん"
-
-msgid "add comment"
-msgstr "コメントをついか"
-
-msgid "save picture of stage..."
-msgstr "ステージのがぞうをほぞん..."
-
-msgid "delete"
-msgstr "さくじょ"
-
-msgid "duplicate"
-msgstr "ふくせい"
+msgid "Suppress-Bold"
+msgstr "false"
 
 msgid "Switch to full stage"
 msgstr "ステージをぜんがめんにきりかえる"
@@ -262,221 +211,32 @@ msgstr "はっぴょうモードにきりかえる"
 msgid "Switch to small stage"
 msgstr "ちいさなステージにきりかえる"
 
+msgid "That pin is already in use"
+msgstr "そのピンはすでにつかわれています"
+
 msgid "That variable name is already in use"
 msgstr "そのへんすうめいはすでにつかわれています"
 
 msgid "The file name already exists. Overwrite existing file?"
 msgstr "このファイルめいはすでにそんざいします。きそんのファイルをうわがきしてもよいですか?"
 
-msgid "add comment here"
-msgstr "コメントをついかしてください"
+msgid "Undelete"
+msgstr "さくじょのとりけし"
+
+msgid "Variable name?"
+msgstr "へんすうめい?"
+
+msgid "Win-Font"
+msgstr "Tahoma"
+
+msgid "Write HEX program"
+msgstr "HEXプログラムとしてほぞんする"
+
+msgid "Write Python program"
+msgstr "Pythonプログラムとしてほぞんする"
 
 msgid "Yes"
 msgstr "はい"
-
-msgid "No"
-msgstr "いいえ"
-
-msgid "Don't Save"
-msgstr "ほぞんしない"
-
-msgid "Save changes before quitting?"
-msgstr "しゅうりょうするまえにへんこうをほぞんしますか?"
-
-############################################
-# micro:witch
-############################################
-msgid "comm"
-msgstr "つうしん"
-
-msgid "radio on"
-msgstr "むせんオン"
-
-msgid "radio off"
-msgstr "むせんオフ"
-
-msgid "send a radio message %s"
-msgstr "むせんメッセージ %s をおくる"
-
-msgid "received radio message"
-msgstr "むせんメッセージ"
-
-msgid "radio reset"
-msgstr "むせんリセット"
-
-msgid "io"
-msgstr "I/O"
-
-msgid "button %M is pressed"
-msgstr "ボタン %M がおされている"
-
-msgid "button %M was pressed"
-msgstr "ボタン %M がおされた"
-
-msgid "count of button %M pressed"
-msgstr "ボタン %M がおされたかいすう"
-
-msgid "digital read pin %n"
-msgstr "デジタルピン %n のあたい"
-
-msgid "digital write pin %n to %n"
-msgstr "デジタルピン %n を %n にする"
-
-msgid "analog read pin %n"
-msgstr "アナログピン %n のあたい"
-
-msgid "analog write pin %n to %n"
-msgstr "アナログピン %n を %n にする"
-
-msgid "analog set period pin %n to %n usec"
-msgstr "アナログピン %n のしゅうきを %n マイクロびょうにする"
-
-msgid "%T is touched"
-msgstr "%T をさわっている"
-
-msgid "led"
-msgstr "LED"
-
-msgid "scroll %s"
-msgstr "%s をスクロールひょうじする"
-
-msgid "scroll %s no wait"
-msgstr "%s をスクロールひょうじし、おわりを待たない"
-
-msgid "show %s"
-msgstr "%s をひょうじする"
-
-msgid "image of %C"
-msgstr "%C のイメージ"
-
-msgid "clock image at %n"
-msgstr "%n ばんめのとけいイメージ"
-
-msgid "arrow image at %n"
-msgstr "%n ばんめのやじるしイメージ"
-
-msgid "images of %L"
-msgstr "リスト %L のイメージ"
-
-msgid "set x %n y %n to %n"
-msgstr "xざひょう %n yざひょう %n を %n にする"
-
-msgid "point x %n y %n"
-msgstr "xざひょう %n yざひょう %n の値"
-
-msgid "clear"
-msgstr "けす"
-
-msgid "led on"
-msgstr "LEDオン"
-
-msgid "led off"
-msgstr "LEDオフ"
-
-msgid "led is on"
-msgstr "LEDがオンか?"
-
-msgid "sensing"
-msgstr "センサ"
-
-msgid "running time"
-msgstr "じっこうじかん"
-
-msgid "temperature"
-msgstr "おんど"
-
-msgid "%H sensor value"
-msgstr "%H のセンサち"
-
-msgid "current gesture"
-msgstr "げんざいのジェスチャ"
-
-msgid "is gesture %m ?"
-msgstr "ジェスチャ %m か?"
-
-msgid "was gesture %m ?"
-msgstr "ジェスチャ %m だった?"
-
-msgid "gestures"
-msgstr "ジェスチャ"
-
-msgid "calibrate compass"
-msgstr "ほういをちょうせいする"
-
-msgid "is calibrated"
-msgstr "ほういがちょうせいずみか?"
-
-msgid "heading"
-msgstr "ほういのむき"
-
-msgid "clear calibration"
-msgstr "ほういのちょうせいをとりけす"
-
-msgid "field strength"
-msgstr "じばのつよさ"
-
-msgid "sound"
-msgstr "サウンド"
-
-msgid "play music %N"
-msgstr "おんがく %N をえんそうする"
-
-msgid "play music %N repeat"
-msgstr "おんがく %N をくりかえしえんそうする"
-
-msgid "play music %N repeat until done"
-msgstr "おんがく %N をくりかえしえんそうしてまつ"
-
-msgid "play music %N until done"
-msgstr "おんがく %N をえんそうしてまつ"
-
-msgid "play music %L"
-msgstr "おんがく %L をえんそうする"
-
-msgid "set tempo to %n ticks"
-msgstr "テンポを %n ティックにせっていする"
-
-msgid "set tempo to %n bpm"
-msgstr "テンポを %n bpmにせっていする"
-
-msgid "reset tempo"
-msgstr "テンポをリセットする"
-
-msgid "tempo"
-msgstr "テンポ"
-
-msgid "play pitch %n Hz for %n msec"
-msgstr "ピッチが %n Hzのおとを %n ミリびょうならす"
-
-msgid "stop music"
-msgstr "おんがくのえんそうをとめる"
-
-msgid "reset music"
-msgstr "おんがくのせっていをリセットする"
-
-msgid "wait %n msecs"
-msgstr "%n ミリびょうまつ"
-
-msgid "panic %n"
-msgstr "きんきゅうていし %n"
-
-msgid "while %b"
-msgstr "%b のあいだくりかえす"
-
-msgid "break"
-msgstr "くりかえしをぬける"
-
-msgid "continue"
-msgstr "くりかえしをすすめる"
-
-msgid "set random seed to %n"
-msgstr "らんすうを %n にしょきかする"
-
-msgid "string of %n"
-msgstr "%n のもじれつ"
-
-msgid "any of %s"
-msgstr "%s のどれか"
 
 msgid "abs %n"
 msgstr "%n のぜったいち"
@@ -484,149 +244,299 @@ msgstr "%n のぜったいち"
 msgid "abs %n sign %n"
 msgstr "%n のぜったいちと %n のふごう"
 
-msgid "Send to micro:bit"
-msgstr "micro:bitにそうしんする"
+msgid "add %s to %L"
+msgstr "%s を %L についかする"
 
-msgid "Write Python program"
-msgstr "Pythonプログラムとしてほぞんする"
+msgid "add comment"
+msgstr "コメントをついか"
 
-msgid "Write HEX program"
-msgstr "HEXプログラムとしてほぞんする"
+msgid "add comment here"
+msgstr "コメントをついかしてください"
 
-msgid "About micro:witch"
-msgstr "micro:witchについて"
+msgid "analog read pin %n"
+msgstr "アナログピン %n のあたい"
 
-msgid "new micro:bit sprite"
-msgstr "あたらしいmicro:bitのスプライトをつくる"
+msgid "analog set period pin %n to %n usec"
+msgstr "アナログピン %n のしゅうきを %n マイクロびょうにする"
 
-msgid "Device"
-msgstr "デバイス"
+msgid "analog write pin %n to %n"
+msgstr "アナログピン %n を %n にする"
 
-msgid "replace all items of %L with %s"
-msgstr "リスト %L を %s でおきかえる"
+msgid "any of %s"
+msgstr "%s のどれか"
 
-msgid "symbol image of %g"
-msgstr "シンボル %g のイメージ"
-
-msgid "clock image of %D"
-msgstr "とけい %D のイメージ"
+msgid "arrow image at %n"
+msgstr "%n ばんめのやじるしイメージ"
 
 msgid "arrow image of %I"
 msgstr "やじるし %I のイメージ"
 
-msgid "shape image of %S"
-msgstr "ずけい %S のイメージ"
+msgid "ascii of %s"
+msgstr "%s のASCIIち"
+
+msgid "break"
+msgstr "くりかえしをぬける"
+
+msgid "button %M is pressed"
+msgstr "ボタン %M がおされている"
+
+msgid "button %M was pressed"
+msgstr "ボタン %M がおされた"
+
+msgid "calibrate compass"
+msgstr "ほういをちょうせいする"
+
+msgid "call %e"
+msgstr "%e をよびだす"
+
+msgid "change %v by %n"
+msgstr "%v を %n ずつかえる"
 
 msgid "character image of %l"
 msgstr "キャラ %l のイメージ"
 
-msgid "image width %n height %n"
-msgstr "はば %n たかさ %n のイメージ"
+msgid "clean up"
+msgstr "きれいにする"
 
-msgid "set x %n y %n to %n of %s"
-msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 を %n3 にする"
-
-msgid "point x %n y %n of %s"
-msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 のあたい"
-
-msgid "width of %s"
-msgstr "イメージ %s のはば"
-
-msgid "height of %s"
-msgstr "イメージ %s のたかさ"
-
-msgid "shift %x %n pixels of %s"
-msgstr "イメージ %s を %x のほうこうに %n ピクセルずらす"
-
-msgid "crop area x %n y %n w %n h %n of %s"
-msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 はば %n3 たかさ %n4 のはんい"
-
-msgid "left"
-msgstr "ひだり"
-
-msgid "right"
-msgstr "みぎ"
-
-msgid "up"
-msgstr "うえ"
-
-msgid "down"
-msgstr "した"
-
-msgid "Make a NeoPixel"
-msgstr "NeoPixel をつくる"
-
-msgid "Delete a NeoPixel"
-msgstr "NeoPixel をさくじょ"
-
-msgid "setup NeoPixel as pin 0 number %n"
-msgstr "NeoPixelをピン0で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 1 number %n"
-msgstr "NeoPixelをピン1で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 2 number %n"
-msgstr "NeoPixelをピン2で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 3 number %n"
-msgstr "NeoPixelをピン3で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 4 number %n"
-msgstr "NeoPixelをピン4で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 5 number %n"
-msgstr "NeoPixelをピン5で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 6 number %n"
-msgstr "NeoPixelをピン6で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 7 number %n"
-msgstr "NeoPixelをピン7で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 8 number %n"
-msgstr "NeoPixelをピン8で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 9 number %n"
-msgstr "NeoPixelをピン9で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 10 number %n"
-msgstr "NeoPixelをピン10で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 11 number %n"
-msgstr "NeoPixelをピン11で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 12 number %n"
-msgstr "NeoPixelをピン12で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 13 number %n"
-msgstr "NeoPixelをピン13で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 14 number %n"
-msgstr "NeoPixelをピン14で %n こにせっていする"
-
-msgid "setup NeoPixel as pin 15 number %n"
-msgstr "NeoPixelをピン15で %n こにせっていする"
+msgid "clear"
+msgstr "けす"
 
 msgid "clear NeoPixel of pin %k"
 msgstr "ピン %k のNeoPixelをけす"
 
-msgid "show NeoPixel of pin %k"
-msgstr "ピン %k のNeoPixelをひょうじする"
+msgid "clear calibration"
+msgstr "ほういのちょうせいをとりけす"
 
-msgid "set %n to r %n g %n b %n of NeoPixel pin %k"
-msgstr "ピン %k のNeoPixelの %n1 ばんめをあか %n2 みどり %n3 あお %n4 にする"
+msgid "clock image at %n"
+msgstr "%n ばんめのとけいイメージ"
 
-msgid "pin No?"
-msgstr "ピンばんごうは?"
+msgid "clock image of %D"
+msgstr "とけい %D のイメージ"
 
-msgid "No NeoPixels."
-msgstr "NeoPixelはありません"
+msgid "comm"
+msgstr "つうしん"
+
+msgid "config radio group %n"
+msgstr "むせんグループを %n にせっていする"
+
+msgid "connect before send"
+msgstr "せつぞくしてからそうしんしてください"
+
+msgid "connecting"
+msgstr "せつぞくちゅう"
+
+msgid "continue"
+msgstr "くりかえしをすすめる"
+
+msgid "control"
+msgstr "せいぎょ"
+
+msgid "copy image of %s"
+msgstr "%s のコピー"
+
+msgid "count of button %M pressed"
+msgstr "ボタン %M がおされたかいすう"
+
+msgid "crop area x %n y %n w %n h %n of %s"
+msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 はば %n3 たかさ %n4 のはんい"
+
+msgid "current gesture"
+msgstr "げんざいのジェスチャ"
+
+msgid "delete"
+msgstr "さくじょ"
+
+msgid "delete %y of %L"
+msgstr "%y ばんめを %L からさくじょする"
+
+msgid "detect faces"
+msgstr "かおにんしき"
+
+msgid "digital read pin %n"
+msgstr "デジタルピン %n のあたい"
+
+msgid "digital write pin %n to %n"
+msgstr "デジタルピン %n を %n にする"
+
+msgid "disconnect"
+msgstr "みせつぞく"
+
+msgid "down"
+msgstr "した"
+
+msgid "duplicate"
+msgstr "ふくせい"
+
+msgid "else"
+msgstr "でなければ"
+
+msgid "false"
+msgstr "いいえ"
+
+msgid "field strength"
+msgstr "じばのつよさ"
+
+msgid "fill %s with %n"
+msgstr "%s を %n でぬりつぶす"
+
+msgid "forever"
+msgstr "ずっと"
+
+msgid "gestures"
+msgstr "ジェスチャ"
+
+msgid "get HuskyLens data"
+msgstr "HuskyLensのデータをしゅとくする"
+
+msgid "has duplicate hat blocks."
+msgstr "どうめいのかいしブロックがあります"
+
+msgid "heading"
+msgstr "ほういのむき"
+
+msgid "height of %s"
+msgstr "イメージ %s のたかさ"
+
+msgid "idle"
+msgstr "せつぞくたいきちゅう"
+
+msgid "if %b"
+msgstr "もし %b なら"
+
+msgid "image of %C"
+msgstr "%C のイメージ"
+
+msgid "image width %n height %n"
+msgstr "はば %n たかさ %n のイメージ"
+
+msgid "images of %L"
+msgstr "リスト %L のイメージ"
+
+msgid "init exboard"
+msgstr "かくちょうボードをしょきかする"
+
+msgid "initialize micro:bit"
+msgstr "micro:bitをしょきかする"
+
+msgid "initialize micro:bit?"
+msgstr "micro:bitをしょきかしますか？"
+
+msgid "initializing micro:bit done, please re-send scripts"
+msgstr "micro:bit をしょきかしました。もういちどそうしんしてください"
+
+msgid "insert %s at %i of %L"
+msgstr "%L の %i ばんめに %s をそうにゅうする"
+
+msgid "inverted image of %s"
+msgstr "%s のはんてん"
+
+msgid "io"
+msgstr "I/O"
+
+msgid "is calibrated"
+msgstr "ほういがちょうせいずみか?"
+
+msgid "is event %U ?"
+msgstr "%U イベントがおこっている?"
+
+msgid "is gesture %m ?"
+msgstr "ジェスチャ %m か?"
+
+msgid "item %i of %L"
+msgstr "%L の %i ばんめ"
+
+msgid "join %s %s"
+msgstr "%s と %s"
+
+msgid "led"
+msgstr "LED"
+
+msgid "led is on"
+msgstr "LEDがオンか?"
+
+msgid "led off"
+msgstr "LEDオフ"
+
+msgid "led on"
+msgstr "LEDオン"
+
+msgid "left"
+msgstr "ひだり"
+
+msgid "length"
+msgstr "ながさ"
+
+msgid "length of %L"
+msgstr "%L のながさ"
+
+msgid "length of %s"
+msgstr "%s のながさ"
+
+msgid "letter %n of %s"
+msgstr "%s の %n ばんめのもじ"
+
+msgid "light"
+msgstr "あかるさ"
+
+msgid "line tracking"
+msgstr "ラインついせき"
+
+msgid "motor ch %n speed %n"
+msgstr "ch %n1 のモーターのそくどを %n2 にする"
+
+msgid "new micro:bit sprite"
+msgstr "あたらしいmicro:bitのスプライトをつくる"
+
+msgid "no micro:bit found"
+msgstr "micro:bit がみつかりません"
+
+msgid "not %b"
+msgstr "%b ではない"
+
+msgid "number of %s"
+msgstr "%s のすうち"
+
+msgid "number of HuskyLens data"
+msgstr "HuskyLensのデータすう"
+
+msgid "object tracking"
+msgstr "ぶったいついせき"
+
+msgid "opening"
+msgstr "せつぞくちゅう"
+
+msgid "operators"
+msgstr "えんざん"
+
+msgid "panic %n"
+msgstr "きんきゅうていし %n"
+
+msgid "pick random %n to %n"
+msgstr "%n から %n までのらんすう"
 
 msgid "pin 0"
 msgstr "ピン0"
 
 msgid "pin 1"
 msgstr "ピン1"
+
+msgid "pin 10"
+msgstr "ピン10"
+
+msgid "pin 11"
+msgstr "ピン11"
+
+msgid "pin 12"
+msgstr "ピン12"
+
+msgid "pin 13"
+msgstr "ピン13"
+
+msgid "pin 14"
+msgstr "ピン14"
+
+msgid "pin 15"
+msgstr "ピン15"
 
 msgid "pin 2"
 msgstr "ピン2"
@@ -652,134 +562,257 @@ msgstr "ピン8"
 msgid "pin 9"
 msgstr "ピン9"
 
-msgid "pin 10"
-msgstr "ピン10"
+msgid "pin No?"
+msgstr "ピンばんごうは?"
 
-msgid "pin 11"
-msgstr "ピン11"
+msgid "play music %L"
+msgstr "おんがく %L をえんそうする"
 
-msgid "pin 12"
-msgstr "ピン12"
+msgid "play music %N"
+msgstr "おんがく %N をえんそうする"
 
-msgid "pin 13"
-msgstr "ピン13"
+msgid "play music %N repeat"
+msgstr "おんがく %N をくりかえしえんそうする"
 
-msgid "pin 14"
-msgstr "ピン14"
+msgid "play music %N repeat until done"
+msgstr "おんがく %N をくりかえしえんそうしてまつ"
 
-msgid "pin 15"
-msgstr "ピン15"
+msgid "play music %N until done"
+msgstr "おんがく %N をえんそうしてまつ"
 
-msgid "That pin is already in use"
-msgstr "そのピンはすでにつかわれています"
+msgid "play pitch %n Hz for %n msec"
+msgstr "ピッチが %n Hzのおとを %n ミリびょうならす"
 
-msgid "Currently pin number is supported up to 15"
-msgstr "げんざいのところピンばんごうは15までしていできます"
+msgid "point x %n y %n"
+msgstr "xざひょう %n yざひょう %n の値"
 
-msgid "copy image of %s"
-msgstr "%s のコピー"
-
-msgid "inverted image of %s"
-msgstr "%s のはんてん"
-
-msgid "fill %s with %n"
-msgstr "%s を %n でぬりつぶす"
-
-msgid "config radio group %n"
-msgstr "むせんグループを %n にせっていする"
-
-msgid "%s is None"
-msgstr "%s がNoneか"
-
-msgid "number of %s"
-msgstr "%s のすうち"
-
-msgid "servo write pin %j to %n degrees"
-msgstr "サーボピン %j を %n どにする"
-
-msgid "servo set pin %j %n msec %n to %n"
-msgstr "サーボピン %j を %n ミリびょう さいだい %n さいしょう %n にせっていする"
-
-msgid "servo set pin %j %n msec"
-msgstr "サーボピン %j を %n ミリびょうにせっていする"
+msgid "point x %n y %n of %s"
+msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 のあたい"
 
 msgid "port"
 msgstr "ポート"
 
-msgid "status"
-msgstr "じょうたい"
+msgid "radio off"
+msgstr "むせんオフ"
 
-msgid "Disconnect from micro:bit"
-msgstr "micro:bit をせつだんする"
+msgid "radio on"
+msgstr "むせんオン"
 
-msgid "Connect to micro:bit"
-msgstr "micro:bit にせつぞくする"
-
-msgid "disconnect"
-msgstr "みせつぞく"
-
-msgid "reboot"
-msgstr "さいきどう"
-
-msgid "idle"
-msgstr "せつぞくたいきちゅう"
-
-msgid "opening"
-msgstr "せつぞくちゅう"
-
-msgid "connecting"
-msgstr "せつぞくちゅう"
-
-msgid "running"
-msgstr "じっこうちゅう"
+msgid "radio reset"
+msgstr "むせんリセット"
 
 msgid "ready"
 msgstr "うけつけちゅう"
 
-msgid "I2C read addr %n"
-msgstr "I2Cでアドレス %n をよみこむ"
+msgid "reboot"
+msgstr "さいきどう"
 
-msgid "I2C write addr %n data %L"
-msgstr "I2Cでアドレス %n に %L をかく"
+msgid "received radio message"
+msgstr "むせんメッセージ"
 
-msgid "I2C write addr %n data %n"
-msgstr "I2Cのアドレス %n1 に %n2 をかく"
+msgid "repeat %n"
+msgstr "%n かいくりかえす"
 
-msgid "I2C write addr %n data %n %n"
-msgstr "I2Cのアドレス %n1 に %n2 %n3 をかく"
+msgid "repeat until %b"
+msgstr "%b までくりかえす"
 
-msgid "I2C write addr %n data %n %n %n"
-msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 をかく"
+msgid "replace all items of %L with %s"
+msgstr "リスト %L を %s でおきかえる"
 
-msgid "show python code"
-msgstr "Pythonコードをひょうじする"
+msgid "replace item %i of %L with %s"
+msgstr "%L の %i ばんめを %s でおきかえる"
 
-msgid "Python code"
-msgstr "Pythonコード"
+msgid "reset"
+msgstr "リセット"
 
-msgid "light"
-msgstr "あかるさ"
+msgid "reset music"
+msgstr "おんがくのせっていをリセットする"
+
+msgid "reset tempo"
+msgstr "テンポをリセットする"
+
+msgid "right"
+msgstr "みぎ"
+
+msgid "round %n"
+msgstr "%n をまるめる"
+
+msgid "running"
+msgstr "じっこうちゅう"
+
+msgid "running time"
+msgstr "じっこうじかん"
+
+msgid "save picture of scripts"
+msgstr "スクリプトのがぞうをほぞん"
+
+msgid "save picture of stage..."
+msgstr "ステージのがぞうをほぞん..."
+
+msgid "scroll %s"
+msgstr "%s をスクロールひょうじする"
+
+msgid "scroll %s no wait"
+msgstr "%s をスクロールひょうじし、おわりを待たない"
+
+msgid "select HuskyLens algorithm %u"
+msgstr "HuskyLensのアルゴリズムを %u にする"
+
+msgid "send a radio message %s"
+msgstr "むせんメッセージ %s をおくる"
 
 msgid "send firmware to micro:bit?"
 msgstr "micro:bitにファームウェアをてんそうしますか？"
 
-msgid "%n between %n and %n"
-msgstr "%n1 が %n2 いじょう %n3 いか"
+msgid "sensing"
+msgstr "センサ"
 
-msgid "has duplicate hat blocks."
-msgstr "どうめいのかいしブロックがあります"
+msgid "servo ch %n degrees %n"
+msgstr "ch %n1 のサーボのかくどを %n2 にする"
+
+msgid "servo set pin %j %n msec"
+msgstr "サーボピン %j を %n ミリびょうにせっていする"
+
+msgid "servo set pin %j %n msec %n to %n"
+msgstr "サーボピン %j を %n ミリびょう さいだい %n さいしょう %n にせっていする"
+
+msgid "servo write pin %j to %n degrees"
+msgstr "サーボピン %j を %n どにする"
+
+msgid "set %n to r %n g %n b %n of NeoPixel pin %k"
+msgstr "ピン %k のNeoPixelの %n1 ばんめをあか %n2 みどり %n3 あお %n4 にする"
+
+msgid "set %v to %n"
+msgstr "%v を %n にする"
+
+msgid "set random seed to %n"
+msgstr "らんすうを %n にしょきかする"
+
+msgid "set tempo to %n bpm"
+msgstr "テンポを %n bpmにせっていする"
+
+msgid "set tempo to %n ticks"
+msgstr "テンポを %n ティックにせっていする"
+
+msgid "set threshold event %U value %n"
+msgstr "イベント %U のしきいちを %n にする"
 
 msgid "set usonic trig %j echo %j"
 msgstr "ちょうおんぱセンサのTrigを %j1 にEchoを %j2 にせっていする"
 
-msgid "usonic distance"
-msgstr "ちょうおんぱセンサのきょり"
+msgid "set x %n y %n to %n"
+msgstr "xざひょう %n yざひょう %n を %n にする"
+
+msgid "set x %n y %n to %n of %s"
+msgstr "イメージ %s のXざひょう %n1 Yざひょう %n2 を %n3 にする"
+
+msgid "setup NeoPixel as pin 0 number %n"
+msgstr "NeoPixelをピン0で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 1 number %n"
+msgstr "NeoPixelをピン1で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 10 number %n"
+msgstr "NeoPixelをピン10で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 11 number %n"
+msgstr "NeoPixelをピン11で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 12 number %n"
+msgstr "NeoPixelをピン12で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 13 number %n"
+msgstr "NeoPixelをピン13で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 14 number %n"
+msgstr "NeoPixelをピン14で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 15 number %n"
+msgstr "NeoPixelをピン15で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 2 number %n"
+msgstr "NeoPixelをピン2で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 3 number %n"
+msgstr "NeoPixelをピン3で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 4 number %n"
+msgstr "NeoPixelをピン4で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 5 number %n"
+msgstr "NeoPixelをピン5で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 6 number %n"
+msgstr "NeoPixelをピン6で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 7 number %n"
+msgstr "NeoPixelをピン7で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 8 number %n"
+msgstr "NeoPixelをピン8で %n こにせっていする"
+
+msgid "setup NeoPixel as pin 9 number %n"
+msgstr "NeoPixelをピン9で %n こにせっていする"
+
+msgid "shape image of %S"
+msgstr "ずけい %S のイメージ"
+
+msgid "shift %x %n pixels of %s"
+msgstr "イメージ %s を %x のほうこうに %n ピクセルずらす"
+
+msgid "show %s"
+msgstr "%s をひょうじする"
+
+msgid "show NeoPixel of pin %k"
+msgstr "ピン %k のNeoPixelをひょうじする"
+
+msgid "show python code"
+msgstr "Pythonコードをひょうじする"
+
+msgid "sound"
+msgstr "サウンド"
+
+msgid "sound level"
+msgstr "おんりょう"
+
+msgid "speaker off"
+msgstr "スピーカーオフ"
+
+msgid "speaker on"
+msgstr "スピーカーオン"
+
+msgid "status"
+msgstr "じょうたい"
+
+msgid "stop music"
+msgstr "おんがくのえんそうをとめる"
+
+msgid "string of %n"
+msgstr "%n のもじれつ"
+
+msgid "subroutine %e"
+msgstr "サブルーチン %e"
+
+msgid "symbol image of %g"
+msgstr "シンボル %g のイメージ"
+
+msgid "temperature"
+msgstr "おんど"
+
+msgid "tempo"
+msgstr "テンポ"
 
 msgid "ticks ms"
 msgstr "かどうじかん(ms)"
 
 msgid "ticks us"
 msgstr "かどうじかん(us)"
+
+msgid "too long name"
+msgstr "なまえがながすぎます"
+
+msgid "true"
+msgstr "はい"
 
 msgid "uart init baud %n"
 msgstr "UARTをボーレート %n でしょきかする"
@@ -796,98 +829,33 @@ msgstr "UART１ぎょうよみこみ"
 msgid "uart write %s"
 msgstr "UARTに %s をかきこむ"
 
-msgid "%n bitand %n"
-msgstr "%n と %n のろんりせき"
+msgid "unable to find the appropriate firmware"
+msgstr "てきせつなファームウェアがみつかりません"
 
-msgid "%n bitor %n"
-msgstr "%n と %n のろんりわ"
+msgid "up"
+msgstr "うえ"
 
-msgid "%n bitxor %n"
-msgstr "%n と %n のはいたてきろんりわ"
+msgid "usonic distance"
+msgstr "ちょうおんぱセンサのきょり"
 
-msgid "%n bit shift left %n"
-msgstr "%n の %n ビットひだりシフト"
+msgid "variables"
+msgstr "へんすう"
 
-msgid "%n bit shift right %n"
-msgstr "%n の %n ビットみぎシフト"
-
-msgid "Subroutine name:"
-msgstr "サブルーチンめい:"
-
-msgid "too long name"
-msgstr "なまえがながすぎます"
-
-msgid "connect before send"
-msgstr "せつぞくしてからそうしんしてください"
-
-msgid "initialize micro:bit"
-msgstr "micro:bitをしょきかする"
-
-msgid "initialize micro:bit?"
-msgstr "micro:bitをしょきかしますか？"
-
-msgid "init exboard"
-msgstr "かくちょうボードをしょきかする"
-
-msgid "servo ch %n degrees %n"
-msgstr "ch %n1 のサーボのかくどを %n2 にする"
-
-msgid "motor ch %n speed %n"
-msgstr "ch %n1 のモーターのそくどを %n2 にする"
-
-msgid "subroutine %e"
-msgstr "サブルーチン %e"
-
-msgid "call %e"
-msgstr "%e をよびだす"
+msgid "wait %n msecs"
+msgstr "%n ミリびょうまつ"
 
 msgid "was event %U ?"
 msgstr "%U イベントがおこったか?"
 
-msgid "is event %U ?"
-msgstr "%U イベントがおこっている?"
+msgid "was gesture %m ?"
+msgstr "ジェスチャ %m だった?"
 
-msgid "set threshold event %U value %n"
-msgstr "イベント %U のしきいちを %n にする"
+msgid "when %m clicked"
+msgstr "%m がクリックされたとき"
 
-msgid "sound level"
-msgstr "おんりょう"
+msgid "while %b"
+msgstr "%b のあいだくりかえす"
 
-msgid "speaker on"
-msgstr "スピーカーオン"
+msgid "width of %s"
+msgstr "イメージ %s のはば"
 
-msgid "speaker off"
-msgstr "スピーカーオフ"
-
-msgid "no micro:bit found"
-msgstr "micro:bit がみつかりません"
-
-msgid "unable to find the appropriate firmware"
-msgstr "てきせつなファームウェアがみつかりません"
-
-msgid "initializing micro:bit done, please re-send scripts"
-msgstr "micro:bit をしょきかしました。もういちどそうしんしてください"
-
-msgid "select HuskyLens algorithm %u"
-msgstr "HuskyLensのアルゴリズムを %u にする"
-
-msgid "get HuskyLens data"
-msgstr "HuskyLensのデータをしゅとくする"
-
-msgid "number of HuskyLens data"
-msgstr "HuskyLensのデータすう"
-
-msgid "%p of %n th HuskyLens data"
-msgstr "HuskyLensの %n ばんめのデータの %p"
-
-msgid "detect faces"
-msgstr "かおにんしき"
-
-msgid "object tracking"
-msgstr "ぶったいついせき"
-
-msgid "line tracking"
-msgstr "ラインついせき"
-
-msgid "reset"
-msgstr "リセット"

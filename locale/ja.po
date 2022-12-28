@@ -1,170 +1,68 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: Scratch\n"
-"Report-Msgid-Bugs-To: Evelyn Eastmond <evelyn@media.mit.edu>\n"
-"POT-Creation-Date: 2008-05-02\n"
-"PO-Revision-Date: 2018-07-03 20:07+0200\n"
-"Last-Translator: Eiichiro Ito <ghc02331@nifty.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.1.6\n"
+msgid "%H sensor value"
+msgstr "%H のセンサ値"
 
-############################################
-# FORMATTING
-############################################
-# Language name as you'd like it to appear in the Languages menu
-# (Required)
-msgid "Language-Name"
-msgstr "日本語"
+msgid "%L contains %s"
+msgstr "%L に %s が含まれる"
 
-# Directionality of language
-# LTR = Left to Right
-# RTL = Right to Left
-msgid "Language-Direction"
-msgstr "LTR"
-
-# Scale to apply to font size (2 for twice as large)
-# Use this if the font is too small for legibility on the Scratch interface
-msgid "Font-Scale"
-msgstr "1.3"
-
-# Set to 'true' or 'false'
-# Use this if you do not want any of the text to be bolded, for legibility
-msgid "Suppress-Bold"
-msgstr "false"
-
-# Font to use on a Windows system
-msgid "Win-Font"
-msgstr "Tahoma"
-
-# Font to use on a Mac system
-msgid "Mac-Font"
-msgstr "times"
-
-# Font to use on a Linux system
-msgid "Linux-Font"
-msgstr "Mona"
-
-############################################
-# Scratch
-############################################
-msgid "control"
-msgstr "制御"
-
-msgid "operators"
-msgstr "演算"
-
-msgid "variables"
-msgstr "変数"
-
-msgid "File"
-msgstr "ファイル"
-
-msgid "Edit"
-msgstr "編集"
-
-msgid "Scripts"
-msgstr "スクリプト"
-
-msgid "when %m clicked"
-msgstr "%m がクリックされたとき"
-
-msgid "forever"
-msgstr "ずっと"
-
-msgid "repeat %n"
-msgstr "%n 回繰り返す"
-
-msgid "repeat until %b"
-msgstr "%b まで繰り返す"
-
-msgid "if %b"
-msgstr "もし %b なら"
-
-msgid "else"
-msgstr "でなければ"
-
-msgid "%n mod %n"
-msgstr "%n を %n で割った余り"
-
-msgid "pick random %n to %n"
-msgstr "%n から %n までの乱数"
+msgid "%T is touched"
+msgstr "%T を触っている"
 
 msgid "%b and %b"
 msgstr "%b かつ %b"
 
 msgid "%b or %b"
-msgstr "%b または %b "
-
-msgid "not %b"
-msgstr "%b ではない"
-
-msgid "true"
-msgstr "はい"
-
-msgid "false"
-msgstr "いいえ"
-
-msgid "join %s %s"
-msgstr "%s と %s"
-
-msgid "letter %n of %s"
-msgstr "%s の %n 番目の文字"
-
-msgid "length of %s"
-msgstr "%s の長さ"
-
-msgid "round %n"
-msgstr "%n を丸める"
+msgstr "%b または %b"
 
 msgid "%f of %n"
 msgstr "%n の %f"
 
-msgid "add %s to %L"
-msgstr "%s を %L に追加する"
+msgid "%n between %n and %n"
+msgstr "%n が %n 以上 %n 以下"
 
-msgid "delete %y of %L"
-msgstr "%y 番目を %L から削除する"
+msgid "%n bit shift left %n"
+msgstr "%n の %n ビット左シフト"
 
-msgid "insert %s at %i of %L"
-msgstr "%L の %i 番目に %s を挿入する"
+msgid "%n bit shift right %n"
+msgstr "%n の %n ビット右シフト"
 
-msgid "replace item %i of %L with %s"
-msgstr "%L の %i 番目を %s で置き換える"
+msgid "%n bitand %n"
+msgstr "%n と %n の論理積"
 
-msgid "item %i of %L"
-msgstr "%L の %i 番目"
+msgid "%n bitor %n"
+msgstr "%n と %n の論理和"
 
-msgid "length of %L"
-msgstr "%L の長さ"
+msgid "%n bitxor %n"
+msgstr "%n と %n の排他的論理和"
 
-msgid "%L contains %s"
-msgstr "%L に %s が含まれる"
+msgid "%n mod %n"
+msgstr "%n を %n で割った余り"
 
-msgid "Make a list"
-msgstr "リストを作る"
+msgid "%p of %n th HuskyLens data"
+msgstr "HuskyLensの %n 番目のデータの %p"
 
-msgid "Make a variable"
-msgstr "新しい変数を作る"
+msgid "%s is None"
+msgstr "%s がNoneか"
 
-msgid "Variable name?"
-msgstr "変数名?"
+msgid "(empty)"
+msgstr "(空)"
 
-msgid "OK"
-msgstr "ＯＫ"
+msgid "About micro:witch"
+msgstr "micro:witchについて"
+
+msgid "About this project:"
+msgstr "このプロジェクトについて:"
 
 msgid "Cancel"
 msgstr "キャンセル"
 
-msgid "set %v to %n"
-msgstr "%v を %n にする"
+msgid "Connect to micro:bit"
+msgstr "micro:bit に接続する"
 
-msgid "change %v by %n"
-msgstr "%v を %n ずつ変える"
+msgid "Currently pin number is supported up to 15"
+msgstr "現在のところピン番号は15まで指定できます"
+
+msgid "Delete a NeoPixel"
+msgstr "NeoPixel を削除"
 
 msgid "Delete a list"
 msgstr "リストを削除する"
@@ -172,14 +70,92 @@ msgstr "リストを削除する"
 msgid "Delete a variable"
 msgstr "変数を削除"
 
+msgid "Device"
+msgstr "デバイス"
+
+msgid "Disconnect from micro:bit"
+msgstr "micro:bit を切断する"
+
+msgid "Don't Save"
+msgstr "保存しない"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "Font-Scale"
+msgstr "1.3"
+
+msgid "I2C read addr %n"
+msgstr "I2Cのアドレス %n の値"
+
+msgid "I2C write addr %n data %L"
+msgstr "I2Cのアドレス %n に %L を書く"
+
+msgid "I2C write addr %n data %n"
+msgstr "I2Cのアドレス %n1 に %n2 を書く"
+
+msgid "I2C write addr %n data %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 を書く"
+
+msgid "I2C write addr %n data %n %n %n"
+msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 を書く"
+
+msgid "Language-Direction"
+msgstr "LTR"
+
+msgid "Language-Name"
+msgstr "日本語"
+
+msgid "Linux-Font"
+msgstr "Mona"
+
 msgid "List name?"
 msgstr "リストの名前は?"
+
+msgid "Mac-Font"
+msgstr "times"
+
+msgid "Make a NeoPixel"
+msgstr "NeoPixel を作る"
+
+msgid "Make a list"
+msgstr "リストを作る"
+
+msgid "Make a variable"
+msgstr "新しい変数を作る"
 
 msgid "New"
 msgstr "新規"
 
+msgid "New Filename:"
+msgstr "新しいファイル名"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No NeoPixels."
+msgstr "NeoPixelはありません"
+
+msgid "OK"
+msgstr "ＯＫ"
+
 msgid "Open"
 msgstr "開く"
+
+msgid "Open Project"
+msgstr "プロジェクトを開く"
+
+msgid "Project author:"
+msgstr "プロジェクトの作者:"
+
+msgid "Python code"
+msgstr "Pythonコード"
+
+msgid "Quit"
+msgstr "終了"
 
 msgid "Save"
 msgstr "保存する"
@@ -187,35 +163,32 @@ msgstr "保存する"
 msgid "Save As"
 msgstr "名前をつけて保存"
 
-msgid "Quit"
-msgstr "終了"
+msgid "Save Project"
+msgstr "プロジェクトを保存"
 
-msgid "Undelete"
-msgstr "削除の取り消し"
+msgid "Save changes before quitting?"
+msgstr "終了する前に変更を保存しますか?"
 
 msgid "Save the current project?"
 msgstr "現在のプロジェクトを保存する?"
 
-msgid "Open Project"
-msgstr "プロジェクトを開く"
-
-msgid "Save Project"
-msgstr "プロジェクトを保存"
-
-msgid "New Filename:"
-msgstr "新しいファイル名"
-
-msgid "Project author:"
-msgstr "プロジェクトの作者:"
-
-msgid "About this project:"
-msgstr "このプロジェクトについて:"
-
 msgid "Save this project"
 msgstr "このプロジェクトを保存する"
 
+msgid "Scripts"
+msgstr "スクリプト"
+
+msgid "Send to micro:bit"
+msgstr "micro:bitに送信する"
+
 msgid "Set language"
 msgstr "言語を設定"
+
+msgid "Sprite"
+msgstr "スプライト"
+
+msgid "Stage"
+msgstr "ステージ"
 
 msgid "Start green flag scripts"
 msgstr "緑の旗のスクリプトを開始"
@@ -223,35 +196,11 @@ msgstr "緑の旗のスクリプトを開始"
 msgid "Stop everything"
 msgstr "すべてを中止"
 
-msgid "(empty)"
-msgstr "(空)"
+msgid "Subroutine name:"
+msgstr "サブルーチン名:"
 
-msgid "length"
-msgstr "長さ"
-
-msgid "Stage"
-msgstr "ステージ"
-
-msgid "Sprite"
-msgstr "スプライト"
-
-msgid "clean up"
-msgstr "きれいにする"
-
-msgid "save picture of scripts"
-msgstr "スクリプトの画像を保存"
-
-msgid "add comment"
-msgstr "コメントを追加"
-
-msgid "save picture of stage..."
-msgstr "ステージの画像を保存..."
-
-msgid "delete"
-msgstr "削除"
-
-msgid "duplicate"
-msgstr "複製"
+msgid "Suppress-Bold"
+msgstr "false"
 
 msgid "Switch to full stage"
 msgstr "ステージを全画面に切り変える"
@@ -262,221 +211,32 @@ msgstr "発表モードに切り替える"
 msgid "Switch to small stage"
 msgstr "小さなステージに切り替える"
 
+msgid "That pin is already in use"
+msgstr "そのピンは既に使われています"
+
 msgid "That variable name is already in use"
 msgstr "その変数名はすでに使われています"
 
 msgid "The file name already exists. Overwrite existing file?"
 msgstr "このファイル名は既に存在します。既存のファイルを上書きしてもよいですか?"
 
-msgid "add comment here"
-msgstr "コメントを追加してください"
+msgid "Undelete"
+msgstr "削除の取り消し"
+
+msgid "Variable name?"
+msgstr "変数名?"
+
+msgid "Win-Font"
+msgstr "Tahoma"
+
+msgid "Write HEX program"
+msgstr "HEXプログラムとして保存する"
+
+msgid "Write Python program"
+msgstr "Pythonプログラムとして保存する"
 
 msgid "Yes"
 msgstr "はい"
-
-msgid "No"
-msgstr "いいえ"
-
-msgid "Don't Save"
-msgstr "保存しない"
-
-msgid "Save changes before quitting?"
-msgstr "終了する前に変更を保存しますか?"
-
-############################################
-# micro:witch
-############################################
-msgid "comm"
-msgstr "通信"
-
-msgid "radio on"
-msgstr "無線オン"
-
-msgid "radio off"
-msgstr "無線オフ"
-
-msgid "send a radio message %s"
-msgstr "無線メッセージ %s を送る"
-
-msgid "received radio message"
-msgstr "無線メッセージ"
-
-msgid "radio reset"
-msgstr "無線リセット"
-
-msgid "io"
-msgstr "I/O"
-
-msgid "button %M is pressed"
-msgstr "ボタン %M が押されている"
-
-msgid "button %M was pressed"
-msgstr "ボタン %M が押された"
-
-msgid "count of button %M pressed"
-msgstr "ボタン %M が押された回数"
-
-msgid "digital read pin %n"
-msgstr "デジタルピン %n の値"
-
-msgid "digital write pin %n to %n"
-msgstr "デジタルピン %n を %n にする"
-
-msgid "analog read pin %n"
-msgstr "アナログピン %n の値"
-
-msgid "analog write pin %n to %n"
-msgstr "アナログピン %n を %n にする"
-
-msgid "analog set period pin %n to %n usec"
-msgstr "アナログピン %n の周期を %n マイクロ秒にする"
-
-msgid "%T is touched"
-msgstr "%T を触っている"
-
-msgid "led"
-msgstr "LED"
-
-msgid "scroll %s"
-msgstr "%s をスクロール表示する"
-
-msgid "scroll %s no wait"
-msgstr "%s をスクロール表示し、終わりを待たない"
-
-msgid "show %s"
-msgstr "%s を表示する"
-
-msgid "image of %C"
-msgstr "%C のイメージ"
-
-msgid "clock image at %n"
-msgstr "%n 番目の時計イメージ"
-
-msgid "arrow image at %n"
-msgstr "%n 番目の矢印イメージ"
-
-msgid "images of %L"
-msgstr "リスト %L のイメージ"
-
-msgid "set x %n y %n to %n"
-msgstr "x座標 %n y座標 %n を %n にする"
-
-msgid "point x %n y %n"
-msgstr "x座標 %n y座標 %n の値"
-
-msgid "clear"
-msgstr "消す"
-
-msgid "led on"
-msgstr "LEDオン"
-
-msgid "led off"
-msgstr "LEDオフ"
-
-msgid "led is on"
-msgstr "LEDがオンか?"
-
-msgid "sensing"
-msgstr "センサ"
-
-msgid "running time"
-msgstr "実行時間"
-
-msgid "temperature"
-msgstr "温度"
-
-msgid "%H sensor value"
-msgstr "%H のセンサ値"
-
-msgid "current gesture"
-msgstr "現在のジェスチャ"
-
-msgid "is gesture %m ?"
-msgstr "ジェスチャ %m か?"
-
-msgid "was gesture %m ?"
-msgstr "ジェスチャ %m だった?"
-
-msgid "gestures"
-msgstr "ジェスチャ"
-
-msgid "calibrate compass"
-msgstr "方位を調整する"
-
-msgid "is calibrated"
-msgstr "方位が調整済みか?"
-
-msgid "heading"
-msgstr "方位の向き"
-
-msgid "clear calibration"
-msgstr "方位の調整を取り消す"
-
-msgid "field strength"
-msgstr "磁場の強さ"
-
-msgid "sound"
-msgstr "サウンド"
-
-msgid "play music %N"
-msgstr "音楽 %N を演奏する"
-
-msgid "play music %N repeat"
-msgstr "音楽 %N を繰り返し演奏する"
-
-msgid "play music %N repeat until done"
-msgstr "音楽 %N を繰り返し演奏して待つ"
-
-msgid "play music %N until done"
-msgstr "音楽 %N を演奏して待つ"
-
-msgid "play music %L"
-msgstr "音楽 %L を演奏する"
-
-msgid "set tempo to %n ticks"
-msgstr "テンポを %n ティックに設定する"
-
-msgid "set tempo to %n bpm"
-msgstr "テンポを %n bpmに設定する"
-
-msgid "reset tempo"
-msgstr "テンポをリセットする"
-
-msgid "tempo"
-msgstr "テンポ"
-
-msgid "play pitch %n Hz for %n msec"
-msgstr "ピッチが %n Hzの音を %n ミリ秒鳴らす"
-
-msgid "stop music"
-msgstr "音楽の演奏を止める"
-
-msgid "reset music"
-msgstr "音楽の設定をリセットする"
-
-msgid "wait %n msecs"
-msgstr "%n ミリ秒待つ"
-
-msgid "panic %n"
-msgstr "緊急停止 %n"
-
-msgid "while %b"
-msgstr "%b の間繰り返す"
-
-msgid "break"
-msgstr "繰り返しを抜ける"
-
-msgid "continue"
-msgstr "繰り返しを進める"
-
-msgid "set random seed to %n"
-msgstr "乱数を %n に初期化する"
-
-msgid "string of %n"
-msgstr "%n の文字列"
-
-msgid "any of %s"
-msgstr "%s のどれか"
 
 msgid "abs %n"
 msgstr "%n の絶対値"
@@ -484,149 +244,299 @@ msgstr "%n の絶対値"
 msgid "abs %n sign %n"
 msgstr "%n の絶対値と %n の符号"
 
-msgid "Send to micro:bit"
-msgstr "micro:bitに送信する"
+msgid "add %s to %L"
+msgstr "%s を %L に追加する"
 
-msgid "Write Python program"
-msgstr "Pythonプログラムとして保存する"
+msgid "add comment"
+msgstr "コメントを追加"
 
-msgid "Write HEX program"
-msgstr "HEXプログラムとして保存する"
+msgid "add comment here"
+msgstr "コメントを追加してください"
 
-msgid "About micro:witch"
-msgstr "micro:witchについて"
+msgid "analog read pin %n"
+msgstr "アナログピン %n の値"
 
-msgid "new micro:bit sprite"
-msgstr "新しいmicro:bitのスプライトを作る"
+msgid "analog set period pin %n to %n usec"
+msgstr "アナログピン %n の周期を %n マイクロ秒にする"
 
-msgid "Device"
-msgstr "デバイス"
+msgid "analog write pin %n to %n"
+msgstr "アナログピン %n を %n にする"
 
-msgid "replace all items of %L with %s"
-msgstr "リスト %L を %s で置き換える"
+msgid "any of %s"
+msgstr "%s のどれか"
 
-msgid "symbol image of %g"
-msgstr "シンボル %g のイメージ"
-
-msgid "clock image of %D"
-msgstr "時計 %D のイメージ"
+msgid "arrow image at %n"
+msgstr "%n 番目の矢印イメージ"
 
 msgid "arrow image of %I"
 msgstr "矢印 %I のイメージ"
 
-msgid "shape image of %S"
-msgstr "図形 %S のイメージ"
+msgid "ascii of %s"
+msgstr "%s のASCII値"
+
+msgid "break"
+msgstr "繰り返しを抜ける"
+
+msgid "button %M is pressed"
+msgstr "ボタン %M が押されている"
+
+msgid "button %M was pressed"
+msgstr "ボタン %M が押された"
+
+msgid "calibrate compass"
+msgstr "方位を調整する"
+
+msgid "call %e"
+msgstr "%e を呼び出す"
+
+msgid "change %v by %n"
+msgstr "%v を %n ずつ変える"
 
 msgid "character image of %l"
 msgstr "キャラ %l のイメージ"
 
-msgid "image width %n height %n"
-msgstr "幅 %n 高さ %n のイメージ"
+msgid "clean up"
+msgstr "きれいにする"
 
-msgid "set x %n y %n to %n of %s"
-msgstr "イメージ %s のX座標 %n1 Y座標 %n2 を %n3 にする"
-
-msgid "point x %n y %n of %s"
-msgstr "イメージ %s のX座標 %n1 Y座標 %n2 の値"
-
-msgid "width of %s"
-msgstr "イメージ %s の幅"
-
-msgid "height of %s"
-msgstr "イメージ %s の高さ"
-
-msgid "shift %x %n pixels of %s"
-msgstr "イメージ %s を %x の方向に %n ピクセルずらす"
-
-msgid "crop area x %n y %n w %n h %n of %s"
-msgstr "イメージ %s のX座標 %n1 Y座標 %n2 幅 %n3 高さ %n4 の範囲"
-
-msgid "left"
-msgstr "左"
-
-msgid "right"
-msgstr "右"
-
-msgid "up"
-msgstr "上"
-
-msgid "down"
-msgstr "下"
-
-msgid "Make a NeoPixel"
-msgstr "NeoPixel を作る"
-
-msgid "Delete a NeoPixel"
-msgstr "NeoPixel を削除"
-
-msgid "setup NeoPixel as pin 0 number %n"
-msgstr "NeoPixelをピン0で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 1 number %n"
-msgstr "NeoPixelをピン1で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 2 number %n"
-msgstr "NeoPixelをピン2で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 3 number %n"
-msgstr "NeoPixelをピン3で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 4 number %n"
-msgstr "NeoPixelをピン4で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 5 number %n"
-msgstr "NeoPixelをピン5で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 6 number %n"
-msgstr "NeoPixelをピン6で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 7 number %n"
-msgstr "NeoPixelをピン7で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 8 number %n"
-msgstr "NeoPixelをピン8で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 9 number %n"
-msgstr "NeoPixelをピン9で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 10 number %n"
-msgstr "NeoPixelをピン10で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 11 number %n"
-msgstr "NeoPixelをピン11で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 12 number %n"
-msgstr "NeoPixelをピン12で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 13 number %n"
-msgstr "NeoPixelをピン13で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 14 number %n"
-msgstr "NeoPixelをピン14で %n 個に設定する"
-
-msgid "setup NeoPixel as pin 15 number %n"
-msgstr "NeoPixelをピン15で %n 個に設定する"
+msgid "clear"
+msgstr "消す"
 
 msgid "clear NeoPixel of pin %k"
 msgstr "ピン %k のNeoPixelを消す"
 
-msgid "show NeoPixel of pin %k"
-msgstr "ピン %k のNeoPixelを表示する"
+msgid "clear calibration"
+msgstr "方位の調整を取り消す"
 
-msgid "set %n to r %n g %n b %n of NeoPixel pin %k"
-msgstr "ピン %k のNeoPixelの %n1 番目を赤 %n2 緑 %n3 青 %n4 にする"
+msgid "clock image at %n"
+msgstr "%n 番目の時計イメージ"
 
-msgid "pin No?"
-msgstr "ピン番号は?"
+msgid "clock image of %D"
+msgstr "時計 %D のイメージ"
 
-msgid "No NeoPixels."
-msgstr "NeoPixelはありません"
+msgid "comm"
+msgstr "通信"
+
+msgid "config radio group %n"
+msgstr "無線グループを %n に設定する"
+
+msgid "connect before send"
+msgstr "接続してから送信してください"
+
+msgid "connecting"
+msgstr "接続中"
+
+msgid "continue"
+msgstr "繰り返しを進める"
+
+msgid "control"
+msgstr "制御"
+
+msgid "copy image of %s"
+msgstr "%s のコピー"
+
+msgid "count of button %M pressed"
+msgstr "ボタン %M が押された回数"
+
+msgid "crop area x %n y %n w %n h %n of %s"
+msgstr "イメージ %s のX座標 %n1 Y座標 %n2 幅 %n3 高さ %n4 の範囲"
+
+msgid "current gesture"
+msgstr "現在のジェスチャ"
+
+msgid "delete"
+msgstr "削除"
+
+msgid "delete %y of %L"
+msgstr "%y 番目を %L から削除する"
+
+msgid "detect faces"
+msgstr "顔認識"
+
+msgid "digital read pin %n"
+msgstr "デジタルピン %n の値"
+
+msgid "digital write pin %n to %n"
+msgstr "デジタルピン %n を %n にする"
+
+msgid "disconnect"
+msgstr "未接続"
+
+msgid "down"
+msgstr "下"
+
+msgid "duplicate"
+msgstr "複製"
+
+msgid "else"
+msgstr "でなければ"
+
+msgid "false"
+msgstr "いいえ"
+
+msgid "field strength"
+msgstr "磁場の強さ"
+
+msgid "fill %s with %n"
+msgstr "%s を %n で塗りつぶす"
+
+msgid "forever"
+msgstr "ずっと"
+
+msgid "gestures"
+msgstr "ジェスチャ"
+
+msgid "get HuskyLens data"
+msgstr "HuskyLensのデータを取得する"
+
+msgid "has duplicate hat blocks."
+msgstr "同名の開始ブロックがあります"
+
+msgid "heading"
+msgstr "方位の向き"
+
+msgid "height of %s"
+msgstr "イメージ %s の高さ"
+
+msgid "idle"
+msgstr "接続待機中"
+
+msgid "if %b"
+msgstr "もし %b なら"
+
+msgid "image of %C"
+msgstr "%C のイメージ"
+
+msgid "image width %n height %n"
+msgstr "幅 %n 高さ %n のイメージ"
+
+msgid "images of %L"
+msgstr "リスト %L のイメージ"
+
+msgid "init exboard"
+msgstr "拡張ボードを初期化する"
+
+msgid "initialize micro:bit"
+msgstr "micro:bitを初期化する"
+
+msgid "initialize micro:bit?"
+msgstr "micro:bitを初期化しますか？"
+
+msgid "initializing micro:bit done, please re-send scripts"
+msgstr "micro:bit を初期化しました。もう一度送信してください"
+
+msgid "insert %s at %i of %L"
+msgstr "%L の %i 番目に %s を挿入する"
+
+msgid "inverted image of %s"
+msgstr "%s の反転"
+
+msgid "io"
+msgstr "I/O"
+
+msgid "is calibrated"
+msgstr "方位が調整済みか?"
+
+msgid "is event %U ?"
+msgstr "%U イベントが起こっている?"
+
+msgid "is gesture %m ?"
+msgstr "ジェスチャ %m か?"
+
+msgid "item %i of %L"
+msgstr "%L の %i 番目"
+
+msgid "join %s %s"
+msgstr "%s と %s"
+
+msgid "led"
+msgstr "LED"
+
+msgid "led is on"
+msgstr "LEDがオンか?"
+
+msgid "led off"
+msgstr "LEDオフ"
+
+msgid "led on"
+msgstr "LEDオン"
+
+msgid "left"
+msgstr "左"
+
+msgid "length"
+msgstr "長さ"
+
+msgid "length of %L"
+msgstr "%L の長さ"
+
+msgid "length of %s"
+msgstr "%s の長さ"
+
+msgid "letter %n of %s"
+msgstr "%s の %n 番目の文字"
+
+msgid "light"
+msgstr "明るさ"
+
+msgid "line tracking"
+msgstr "ライン追跡"
+
+msgid "motor ch %n speed %n"
+msgstr "ch %n1 のモーターの速度を %n2 にする"
+
+msgid "new micro:bit sprite"
+msgstr "新しいmicro:bitのスプライトを作る"
+
+msgid "no micro:bit found"
+msgstr "micro:bit が見つかりません"
+
+msgid "not %b"
+msgstr "%b ではない"
+
+msgid "number of %s"
+msgstr "%s の数値"
+
+msgid "number of HuskyLens data"
+msgstr "HuskyLensのデータ数"
+
+msgid "object tracking"
+msgstr "物体追跡"
+
+msgid "opening"
+msgstr "接続中"
+
+msgid "operators"
+msgstr "演算"
+
+msgid "panic %n"
+msgstr "緊急停止 %n"
+
+msgid "pick random %n to %n"
+msgstr "%n から %n までの乱数"
 
 msgid "pin 0"
 msgstr "ピン0"
 
 msgid "pin 1"
 msgstr "ピン1"
+
+msgid "pin 10"
+msgstr "ピン10"
+
+msgid "pin 11"
+msgstr "ピン11"
+
+msgid "pin 12"
+msgstr "ピン12"
+
+msgid "pin 13"
+msgstr "ピン13"
+
+msgid "pin 14"
+msgstr "ピン14"
+
+msgid "pin 15"
+msgstr "ピン15"
 
 msgid "pin 2"
 msgstr "ピン2"
@@ -652,134 +562,257 @@ msgstr "ピン8"
 msgid "pin 9"
 msgstr "ピン9"
 
-msgid "pin 10"
-msgstr "ピン10"
+msgid "pin No?"
+msgstr "ピン番号は?"
 
-msgid "pin 11"
-msgstr "ピン11"
+msgid "play music %L"
+msgstr "音楽 %L を演奏する"
 
-msgid "pin 12"
-msgstr "ピン12"
+msgid "play music %N"
+msgstr "音楽 %N を演奏する"
 
-msgid "pin 13"
-msgstr "ピン13"
+msgid "play music %N repeat"
+msgstr "音楽 %N を繰り返し演奏する"
 
-msgid "pin 14"
-msgstr "ピン14"
+msgid "play music %N repeat until done"
+msgstr "音楽 %N を繰り返し演奏して待つ"
 
-msgid "pin 15"
-msgstr "ピン15"
+msgid "play music %N until done"
+msgstr "音楽 %N を演奏して待つ"
 
-msgid "That pin is already in use"
-msgstr "そのピンは既に使われています"
+msgid "play pitch %n Hz for %n msec"
+msgstr "ピッチが %n Hzの音を %n ミリ秒鳴らす"
 
-msgid "Currently pin number is supported up to 15"
-msgstr "現在のところピン番号は15まで指定できます"
+msgid "point x %n y %n"
+msgstr "x座標 %n y座標 %n の値"
 
-msgid "copy image of %s"
-msgstr "%s のコピー"
-
-msgid "inverted image of %s"
-msgstr "%s の反転"
-
-msgid "fill %s with %n"
-msgstr "%s を %n で塗りつぶす"
-
-msgid "config radio group %n"
-msgstr "無線グループを %n に設定する"
-
-msgid "%s is None"
-msgstr "%s がNoneか"
-
-msgid "number of %s"
-msgstr "%s の数値"
-
-msgid "servo write pin %j to %n degrees"
-msgstr "サーボピン %j を %n 度にする"
-
-msgid "servo set pin %j %n msec %n to %n"
-msgstr "サーボピン %j を %n ミリ秒 最大 %n 最小 %n に設定する"
-
-msgid "servo set pin %j %n msec"
-msgstr "サーボピン %j を %n ミリ秒に設定する"
+msgid "point x %n y %n of %s"
+msgstr "イメージ %s のX座標 %n1 Y座標 %n2 の値"
 
 msgid "port"
 msgstr "ポート"
 
-msgid "status"
-msgstr "状態"
+msgid "radio off"
+msgstr "無線オフ"
 
-msgid "Disconnect from micro:bit"
-msgstr "micro:bit を切断する"
+msgid "radio on"
+msgstr "無線オン"
 
-msgid "Connect to micro:bit"
-msgstr "micro:bit に接続する"
-
-msgid "disconnect"
-msgstr "未接続"
-
-msgid "reboot"
-msgstr "再起動"
-
-msgid "idle"
-msgstr "接続待機中"
-
-msgid "opening"
-msgstr "接続中"
-
-msgid "connecting"
-msgstr "接続中"
-
-msgid "running"
-msgstr "実行中"
+msgid "radio reset"
+msgstr "無線リセット"
 
 msgid "ready"
 msgstr "受付中"
 
-msgid "I2C read addr %n"
-msgstr "I2Cのアドレス %n の値"
+msgid "reboot"
+msgstr "再起動"
 
-msgid "I2C write addr %n data %L"
-msgstr "I2Cのアドレス %n に %L を書く"
+msgid "received radio message"
+msgstr "無線メッセージ"
 
-msgid "I2C write addr %n data %n"
-msgstr "I2Cのアドレス %n1 に %n2 を書く"
+msgid "repeat %n"
+msgstr "%n 回繰り返す"
 
-msgid "I2C write addr %n data %n %n"
-msgstr "I2Cのアドレス %n1 に %n2 %n3 を書く"
+msgid "repeat until %b"
+msgstr "%b まで繰り返す"
 
-msgid "I2C write addr %n data %n %n %n"
-msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 を書く"
+msgid "replace all items of %L with %s"
+msgstr "リスト %L を %s で置き換える"
 
-msgid "show python code"
-msgstr "Pythonコードを表示する"
+msgid "replace item %i of %L with %s"
+msgstr "%L の %i 番目を %s で置き換える"
 
-msgid "Python code"
-msgstr "Pythonコード"
+msgid "reset"
+msgstr "リセット"
 
-msgid "light"
-msgstr "明るさ"
+msgid "reset music"
+msgstr "音楽の設定をリセットする"
+
+msgid "reset tempo"
+msgstr "テンポをリセットする"
+
+msgid "right"
+msgstr "右"
+
+msgid "round %n"
+msgstr "%n を丸める"
+
+msgid "running"
+msgstr "実行中"
+
+msgid "running time"
+msgstr "実行時間"
+
+msgid "save picture of scripts"
+msgstr "スクリプトの画像を保存"
+
+msgid "save picture of stage..."
+msgstr "ステージの画像を保存..."
+
+msgid "scroll %s"
+msgstr "%s をスクロール表示する"
+
+msgid "scroll %s no wait"
+msgstr "%s をスクロール表示し、終わりを待たない"
+
+msgid "select HuskyLens algorithm %u"
+msgstr "HuskyLensのアルゴリズムを %u にする"
+
+msgid "send a radio message %s"
+msgstr "無線メッセージ %s を送る"
 
 msgid "send firmware to micro:bit?"
 msgstr "micro:bitにファームウェアを転送しますか？"
 
-msgid "%n between %n and %n"
-msgstr "%n1 が %n2 以上 %n3 以下"
+msgid "sensing"
+msgstr "センサ"
 
-msgid "has duplicate hat blocks."
-msgstr "同名の開始ブロックがあります"
+msgid "servo ch %n degrees %n"
+msgstr "ch %n1 のサーボの角度を %n2 にする"
+
+msgid "servo set pin %j %n msec"
+msgstr "サーボピン %j を %n ミリ秒に設定する"
+
+msgid "servo set pin %j %n msec %n to %n"
+msgstr "サーボピン %j を %n ミリ秒 最大 %n 最小 %n に設定する"
+
+msgid "servo write pin %j to %n degrees"
+msgstr "サーボピン %j を %n 度にする"
+
+msgid "set %n to r %n g %n b %n of NeoPixel pin %k"
+msgstr "ピン %k のNeoPixelの %n1 番目を赤 %n2 緑 %n3 青 %n4 にする"
+
+msgid "set %v to %n"
+msgstr "%v を %n にする"
+
+msgid "set random seed to %n"
+msgstr "乱数を %n に初期化する"
+
+msgid "set tempo to %n bpm"
+msgstr "テンポを %n bpmに設定する"
+
+msgid "set tempo to %n ticks"
+msgstr "テンポを %n ティックに設定する"
+
+msgid "set threshold event %U value %n"
+msgstr "イベント %U のしきい値を %n にする"
 
 msgid "set usonic trig %j echo %j"
 msgstr "超音波センサのTrigを %j1 にEchoを %j2 に設定する"
 
-msgid "usonic distance"
-msgstr "超音波センサの距離"
+msgid "set x %n y %n to %n"
+msgstr "x座標 %n y座標 %n を %n にする"
+
+msgid "set x %n y %n to %n of %s"
+msgstr "イメージ %s のX座標 %n1 Y座標 %n2 を %n3 にする"
+
+msgid "setup NeoPixel as pin 0 number %n"
+msgstr "NeoPixelをピン0で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 1 number %n"
+msgstr "NeoPixelをピン1で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 10 number %n"
+msgstr "NeoPixelをピン10で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 11 number %n"
+msgstr "NeoPixelをピン11で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 12 number %n"
+msgstr "NeoPixelをピン12で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 13 number %n"
+msgstr "NeoPixelをピン13で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 14 number %n"
+msgstr "NeoPixelをピン14で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 15 number %n"
+msgstr "NeoPixelをピン15で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 2 number %n"
+msgstr "NeoPixelをピン2で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 3 number %n"
+msgstr "NeoPixelをピン3で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 4 number %n"
+msgstr "NeoPixelをピン4で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 5 number %n"
+msgstr "NeoPixelをピン5で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 6 number %n"
+msgstr "NeoPixelをピン6で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 7 number %n"
+msgstr "NeoPixelをピン7で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 8 number %n"
+msgstr "NeoPixelをピン8で %n 個に設定する"
+
+msgid "setup NeoPixel as pin 9 number %n"
+msgstr "NeoPixelをピン9で %n 個に設定する"
+
+msgid "shape image of %S"
+msgstr "図形 %S のイメージ"
+
+msgid "shift %x %n pixels of %s"
+msgstr "イメージ %s を %x の方向に %n ピクセルずらす"
+
+msgid "show %s"
+msgstr "%s を表示する"
+
+msgid "show NeoPixel of pin %k"
+msgstr "ピン %k のNeoPixelを表示する"
+
+msgid "show python code"
+msgstr "Pythonコードを表示する"
+
+msgid "sound"
+msgstr "サウンド"
+
+msgid "sound level"
+msgstr "音量"
+
+msgid "speaker off"
+msgstr "スピーカーオフ"
+
+msgid "speaker on"
+msgstr "スピーカーオン"
+
+msgid "status"
+msgstr "状態"
+
+msgid "stop music"
+msgstr "音楽の演奏を止める"
+
+msgid "string of %n"
+msgstr "%n の文字列"
+
+msgid "subroutine %e"
+msgstr "サブルーチン %e"
+
+msgid "symbol image of %g"
+msgstr "シンボル %g のイメージ"
+
+msgid "temperature"
+msgstr "温度"
+
+msgid "tempo"
+msgstr "テンポ"
 
 msgid "ticks ms"
 msgstr "稼働時間(ms)"
 
 msgid "ticks us"
 msgstr "稼働時間(us)"
+
+msgid "too long name"
+msgstr "名前が長すぎます"
+
+msgid "true"
+msgstr "はい"
 
 msgid "uart init baud %n"
 msgstr "UARTをボーレート %n で初期化する"
@@ -796,98 +829,33 @@ msgstr "UART１行読み込み"
 msgid "uart write %s"
 msgstr "UARTに %s を書き込む"
 
-msgid "%n bitand %n"
-msgstr "%n と %n の論理積"
+msgid "unable to find the appropriate firmware"
+msgstr "適切なファームウェアが見つかりません"
 
-msgid "%n bitor %n"
-msgstr "%n と %n の論理和"
+msgid "up"
+msgstr "上"
 
-msgid "%n bitxor %n"
-msgstr "%n と %n の排他的論理和"
+msgid "usonic distance"
+msgstr "超音波センサの距離"
 
-msgid "%n bit shift left %n"
-msgstr "%n の %n ビット左シフト"
+msgid "variables"
+msgstr "変数"
 
-msgid "%n bit shift right %n"
-msgstr "%n の %n ビット右シフト"
-
-msgid "Subroutine name:"
-msgstr "サブルーチン名:"
-
-msgid "too long name"
-msgstr "名前が長すぎます"
-
-msgid "connect before send"
-msgstr "接続してから送信してください"
-
-msgid "initialize micro:bit"
-msgstr "micro:bitを初期化する"
-
-msgid "initialize micro:bit?"
-msgstr "micro:bitを初期化しますか？"
-
-msgid "init exboard"
-msgstr "拡張ボードを初期化する"
-
-msgid "servo ch %n degrees %n"
-msgstr "ch %n1 のサーボの角度を %n2 にする"
-
-msgid "motor ch %n speed %n"
-msgstr "ch %n1 のモーターの速度を %n2 にする"
-
-msgid "subroutine %e"
-msgstr "サブルーチン %e"
-
-msgid "call %e"
-msgstr "%e を呼び出す"
+msgid "wait %n msecs"
+msgstr "%n ミリ秒待つ"
 
 msgid "was event %U ?"
 msgstr "%U イベントが起こったか?"
 
-msgid "is event %U ?"
-msgstr "%U イベントが起こっている?"
+msgid "was gesture %m ?"
+msgstr "ジェスチャ %m だった?"
 
-msgid "set threshold event %U value %n"
-msgstr "イベント %U のしきい値を %n にする"
+msgid "when %m clicked"
+msgstr "%m がクリックされたとき"
 
-msgid "sound level"
-msgstr "音量"
+msgid "while %b"
+msgstr "%b の間繰り返す"
 
-msgid "speaker on"
-msgstr "スピーカーオン"
+msgid "width of %s"
+msgstr "イメージ %s の幅"
 
-msgid "speaker off"
-msgstr "スピーカーオフ"
-
-msgid "no micro:bit found"
-msgstr "micro:bit が見つかりません"
-
-msgid "unable to find the appropriate firmware"
-msgstr "適切なファームウェアが見つかりません"
-
-msgid "initializing micro:bit done, please re-send scripts"
-msgstr "micro:bit を初期化しました。もう一度送信してください"
-
-msgid "select HuskyLens algorithm %u"
-msgstr "HuskyLensのアルゴリズムを %u にする"
-
-msgid "get HuskyLens data"
-msgstr "HuskyLensのデータを取得する"
-
-msgid "number of HuskyLens data"
-msgstr "HuskyLensのデータ数"
-
-msgid "%p of %n th HuskyLens data"
-msgstr "HuskyLensの %n 番目のデータの %p"
-
-msgid "detect faces"
-msgstr "顔認識"
-
-msgid "object tracking"
-msgstr "物体追跡"
-
-msgid "line tracking"
-msgstr "ライン追跡"
-
-msgid "reset"
-msgstr "リセット"
