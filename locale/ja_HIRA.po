@@ -1,3 +1,24 @@
+msgid "Language-Name"
+msgstr "にほんご"
+
+msgid "Language-Direction"
+msgstr "LTR"
+
+msgid "Font-Scale"
+msgstr "1.3"
+
+msgid "Suppress-Bold"
+msgstr "false"
+
+msgid "Win-Font"
+msgstr "Tahoma"
+
+msgid "Mac-Font"
+msgstr "times"
+
+msgid "Linux-Font"
+msgstr "Mona"
+
 msgid "%H sensor value"
 msgstr "%H のセンサち"
 
@@ -85,9 +106,6 @@ msgstr "へんしゅう"
 msgid "File"
 msgstr "ファイル"
 
-msgid "Font-Scale"
-msgstr "1.3"
-
 msgid "I2C read addr %n"
 msgstr "I2Cでアドレス %n をよみこむ"
 
@@ -103,20 +121,11 @@ msgstr "I2Cのアドレス %n1 に %n2 %n3 をかく"
 msgid "I2C write addr %n data %n %n %n"
 msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 をかく"
 
-msgid "Language-Direction"
-msgstr "LTR"
-
-msgid "Language-Name"
-msgstr "にほんご"
-
-msgid "Linux-Font"
-msgstr "Mona"
+msgid "Initializing micro:bit. Do not remove your micro:bit."
+msgstr "micro:bitしょきかちゅう。とりはずさないでください。"
 
 msgid "List name?"
 msgstr "リストのなまえは?"
-
-msgid "Mac-Font"
-msgstr "times"
 
 msgid "Make a NeoPixel"
 msgstr "NeoPixel をつくる"
@@ -199,9 +208,6 @@ msgstr "すべてをちゅうし"
 msgid "Subroutine name:"
 msgstr "サブルーチンめい:"
 
-msgid "Suppress-Bold"
-msgstr "false"
-
 msgid "Switch to full stage"
 msgstr "ステージをぜんがめんにきりかえる"
 
@@ -226,14 +232,14 @@ msgstr "さくじょのとりけし"
 msgid "Variable name?"
 msgstr "へんすうめい?"
 
-msgid "Win-Font"
-msgstr "Tahoma"
-
 msgid "Write HEX program"
 msgstr "HEXプログラムとしてほぞんする"
 
 msgid "Write Python program"
 msgstr "Pythonプログラムとしてほぞんする"
+
+msgid "Writing MicroPython file."
+msgstr "MicroPythonファイルかきこみちゅう。"
 
 msgid "Yes"
 msgstr "はい"
@@ -421,9 +427,6 @@ msgstr "micro:bitをしょきかする"
 msgid "initialize micro:bit?"
 msgstr "micro:bitをしょきかしますか？"
 
-msgid "initializing micro:bit done, please re-send scripts"
-msgstr "micro:bit をしょきかしました。もういちどそうしんしてください"
-
 msgid "insert %s at %i of %L"
 msgstr "%L の %i ばんめに %s をそうにゅうする"
 
@@ -480,6 +483,9 @@ msgstr "あかるさ"
 
 msgid "line tracking"
 msgstr "ラインついせき"
+
+msgid "micro:bit was initialized."
+msgstr "micro:bit はしょきかされました。"
 
 msgid "motor ch %n speed %n"
 msgstr "ch %n1 のモーターのそくどを %n2 にする"

@@ -1,3 +1,24 @@
+msgid "Language-Name"
+msgstr "日本語"
+
+msgid "Language-Direction"
+msgstr "LTR"
+
+msgid "Font-Scale"
+msgstr "1.3"
+
+msgid "Suppress-Bold"
+msgstr "false"
+
+msgid "Win-Font"
+msgstr "Tahoma"
+
+msgid "Mac-Font"
+msgstr "times"
+
+msgid "Linux-Font"
+msgstr "Mona"
+
 msgid "%H sensor value"
 msgstr "%H のセンサ値"
 
@@ -85,9 +106,6 @@ msgstr "編集"
 msgid "File"
 msgstr "ファイル"
 
-msgid "Font-Scale"
-msgstr "1.3"
-
 msgid "I2C read addr %n"
 msgstr "I2Cのアドレス %n の値"
 
@@ -103,20 +121,11 @@ msgstr "I2Cのアドレス %n1 に %n2 %n3 を書く"
 msgid "I2C write addr %n data %n %n %n"
 msgstr "I2Cのアドレス %n1 に %n2 %n3 %n4 を書く"
 
-msgid "Language-Direction"
-msgstr "LTR"
-
-msgid "Language-Name"
-msgstr "日本語"
-
-msgid "Linux-Font"
-msgstr "Mona"
+msgid "Initializing micro:bit. Do not remove your micro:bit."
+msgstr "micro:bit初期化中。取り外さないでください。"
 
 msgid "List name?"
 msgstr "リストの名前は?"
-
-msgid "Mac-Font"
-msgstr "times"
 
 msgid "Make a NeoPixel"
 msgstr "NeoPixel を作る"
@@ -199,9 +208,6 @@ msgstr "すべてを中止"
 msgid "Subroutine name:"
 msgstr "サブルーチン名:"
 
-msgid "Suppress-Bold"
-msgstr "false"
-
 msgid "Switch to full stage"
 msgstr "ステージを全画面に切り変える"
 
@@ -226,14 +232,14 @@ msgstr "削除の取り消し"
 msgid "Variable name?"
 msgstr "変数名?"
 
-msgid "Win-Font"
-msgstr "Tahoma"
-
 msgid "Write HEX program"
 msgstr "HEXプログラムとして保存する"
 
 msgid "Write Python program"
 msgstr "Pythonプログラムとして保存する"
+
+msgid "Writing MicroPython file."
+msgstr "MicroPythonファイル書き込み中。"
 
 msgid "Yes"
 msgstr "はい"
@@ -421,9 +427,6 @@ msgstr "micro:bitを初期化する"
 msgid "initialize micro:bit?"
 msgstr "micro:bitを初期化しますか？"
 
-msgid "initializing micro:bit done, please re-send scripts"
-msgstr "micro:bit を初期化しました。もう一度送信してください"
-
 msgid "insert %s at %i of %L"
 msgstr "%L の %i 番目に %s を挿入する"
 
@@ -480,6 +483,9 @@ msgstr "明るさ"
 
 msgid "line tracking"
 msgstr "ライン追跡"
+
+msgid "micro:bit was initialized."
+msgstr "micro:bit は初期化されました。"
 
 msgid "motor ch %n speed %n"
 msgstr "ch %n1 のモーターの速度を %n2 にする"
