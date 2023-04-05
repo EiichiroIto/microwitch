@@ -11,7 +11,7 @@ micro:witch は、BBC micro:bit のためのブロック型プログラミング
 
 ## ダウンロードとインストールの方法
 1. [Releases ページ](https://github.com/EiichiroIto/microwitch/releases) から最新のリリースを選んでください。
-1. Assets の中からリリースファイルを選んでダウンロードしてください。（例 microwitch-v1.2.4-win.zip）
+1. Assets の中からリリースファイルを選んでダウンロードしてください。（例 microwitch-v1.3.0-win.zip）
 1. ダウンロードしたファイルを適当なフォルダに展開してください。
 
 ## 起動方法
