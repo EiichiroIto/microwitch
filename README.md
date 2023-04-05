@@ -11,7 +11,7 @@ You can try micro:witch v2 if you like.
 
 [micro:witch v2](https://github.com/EiichiroIto/microwitch2)
 
-![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
+![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch1.3.0.png)
 
 ## Download and Install
 1. Open [Releases page](https://github.com/EiichiroIto/microwitch/releases) and select newest release.

@@ -7,7 +7,7 @@ micro:witch は、BBC micro:bit のためのブロック型プログラミング
 
 [micro:witch v2](https://github.com/EiichiroIto/microwitch2)
 
-![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/screenshot1.png)
+![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch1.3.0.png)
 
 ## ダウンロードとインストールの方法
 1. [Releases ページ](https://github.com/EiichiroIto/microwitch/releases) から最新のリリースを選んでください。
