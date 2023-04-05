@@ -3,7 +3,7 @@ micro:witch is a block-style programming environment for micro:bit based on MIT 
 
 (BBC micro:bit v2 is supported now and some functions are available)
 
-[Japanese documents](https://github.com/EiichiroIto/microwitch/blob/master/README.ja.md)
+[日本語](https://github.com/EiichiroIto/microwitch/blob/master/README.ja.md)
 
 [for Raspberry pi](https://github.com/EiichiroIto/microwitch-linux)
 
