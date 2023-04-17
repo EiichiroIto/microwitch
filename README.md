@@ -20,7 +20,6 @@ You can try micro:witch v2 if you like.
 
 ## Run
 1. Start Scratch.exe.
-2. Select a language.
 
 ## Upload firmware
 To use the micro:witch, you need to upload the firmware to the micro:bit by following the steps below.
