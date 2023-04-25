@@ -55,8 +55,23 @@ msgstr "%n と %n のろんりわ"
 msgid "%n bitxor %n"
 msgstr "%n と %n のはいたてきろんりわ"
 
+msgid "%n + %n"
+msgstr "%n ＋ %n"
+
+msgid "%n - %n"
+msgstr "%n − %n"
+
+msgid "%n * %n"
+msgstr "%n × %n"
+
+msgid "%n / %n"
+msgstr "%n ÷ %n"
+
 msgid "%n mod %n"
 msgstr "%n を %n でわったあまり"
+
+msgid "%n div %n"
+msgstr "%n を %n でわったしょう"
 
 msgid "%p of %n th HuskyLens data"
 msgstr "HuskyLensの %n ばんめのデータの %p"
