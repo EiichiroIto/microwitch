@@ -1,0 +1,1 @@
+'From MIT Squeak 0.9.4 (June 1, 2003) [No updates present.] on 30 April 2023 at 9:46:29 pm'!!MicrobitCode methodsFor: 'variables blocks'!getVar: aMorph	^ aMorph variable! !!VariableBlockMorph methodsFor: 'initialization'!initialize	super initialize.	commandSpec _ ''.	self color: (Color r: 0.4 g: 1.0 b: 0.4).	selector := #getVar:! !
