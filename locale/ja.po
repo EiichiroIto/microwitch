@@ -334,6 +334,9 @@ msgstr "%n 番目の時計イメージ"
 msgid "clock image of %D"
 msgstr "時計 %D のイメージ"
 
+msgid "color recognition"
+msgstr "色認識"
+
 msgid "comm"
 msgstr "通信"
 
@@ -522,6 +525,9 @@ msgstr "HuskyLensのデータ数"
 
 msgid "object tracking"
 msgstr "物体追跡"
+
+msgid "object recognition"
+msgstr "物体認識"
 
 msgid "opening"
 msgstr "接続中"
@@ -816,6 +822,9 @@ msgstr "サブルーチン %e"
 
 msgid "symbol image of %g"
 msgstr "シンボル %g のイメージ"
+
+msgid "tag recognition"
+msgstr "タグ認識"
 
 msgid "temperature"
 msgstr "温度"

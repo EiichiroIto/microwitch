@@ -334,6 +334,9 @@ msgstr "%n ばんめのとけいイメージ"
 msgid "clock image of %D"
 msgstr "とけい %D のイメージ"
 
+msgid "color recognition"
+msgstr "いろにんしき"
+
 msgid "comm"
 msgstr "つうしん"
 
@@ -522,6 +525,9 @@ msgstr "HuskyLensのデータすう"
 
 msgid "object tracking"
 msgstr "ぶったいついせき"
+
+msgid "object recognition"
+msgstr "ぶったいにんしき"
 
 msgid "opening"
 msgstr "せつぞくちゅう"
@@ -816,6 +822,9 @@ msgstr "サブルーチン %e"
 
 msgid "symbol image of %g"
 msgstr "シンボル %g のイメージ"
+
+msgid "tag recognition"
+msgstr "タグにんしき"
 
 msgid "temperature"
 msgstr "おんど"
