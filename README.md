@@ -19,7 +19,7 @@ You can try micro:witch v2 if you like.
 1. Unzip the downloaded file to an appropriate folder.
 
 ## Run
-1. Start Scratch.exe.
+1. Start microwitch.exe.
 
 ## Upload firmware
 To use the micro:witch, you need to upload the firmware to the micro:bit by following the steps below.
