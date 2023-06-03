@@ -11,11 +11,11 @@ You can try micro:witch v2 if you like.
 
 [micro:witch v2](https://github.com/EiichiroIto/microwitch2)
 
-![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch1.3.0.png)
+![screenshot1](https://raw.githubusercontent.com/EiichiroIto/microwitch/master/doc/images/microwitch1.3.3.png)
 
 ## Download and Install
 1. Open [Releases page](https://github.com/EiichiroIto/microwitch/releases) and select newest release.
-1. Download the release file from Assets. (ex. microwitch-v1.3.0-win.zip)
+1. Download the release file from Assets. (ex. microwitch-v1.3.3-win.zip)
 1. Unzip the downloaded file to an appropriate folder.
 
 ## Run
